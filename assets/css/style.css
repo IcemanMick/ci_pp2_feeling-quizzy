@@ -1,4 +1,12 @@
+/*google font used for entire website*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* code to start off styling*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 body {
     font-family: Oswald, sans-serif;
