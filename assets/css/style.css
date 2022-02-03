@@ -1,5 +1,5 @@
 /*google font used for entire website*/
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* code for initial box model control*/
 * {
@@ -9,5 +9,9 @@
 }
 
 body {
-    font-family: Oswald, sans-serif;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    background: rgba(25, 50, 190, 0.75);
 }
+
+
