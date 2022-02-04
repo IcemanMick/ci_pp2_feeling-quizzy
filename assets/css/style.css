@@ -181,7 +181,9 @@ footer{
 
 .score-area {
     margin: 5px auto;
-    width: 60%;
-    font-size: 1.2rem;
-    
+    width: 20%;
+    font-size: 2rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
 }
