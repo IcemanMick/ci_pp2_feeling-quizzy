@@ -44,7 +44,6 @@ footer{
 }
 
 .home-menu {
-    background: lightgreen;
     width: 50vw;
     height: 50vh;
     display: flex;
@@ -52,7 +51,7 @@ footer{
     align-items: center;
     max-width: 80rem;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1.75rem;
 }
 
 .flex-column {
@@ -85,12 +84,26 @@ footer{
     margin-bottom: 1rem;
     text-decoration: none;
     color:rgba(25, 50, 190, 0.75);
-    background: yellow;
+    background: lightblue;
     border-radius: 4px;
     
 
 }
 
+.btn-green:hover {
+    background-color: limegreen;
+    color: whitesmoke;
+}
+
+.btn-orange:hover {
+    background-color: gold;
+    color: whitesmoke;
+}
+
+.btn-red:hover {
+    background-color: red;
+    color: whitesmoke;
+}
 
 .fas {
     font-size: 1.8rem;
