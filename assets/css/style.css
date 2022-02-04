@@ -239,3 +239,20 @@ footer{
     border: 1px solid black;
     border-radius: 2px;
 }
+
+.submit-btn {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+    color: rgba(25, 50, 190, 0.75);
+    display: block;
+}
+
+.submit-btn:hover {
+    background:rgba(25, 50, 190, 0.75);
+    color: whitesmoke;
+}
