@@ -12,6 +12,7 @@
 body {
     font-family: Roboto, sans-serif;
     background: rgba(25, 50, 190, 0.75);
+    color: whitesmoke;
 }
 
 h1 {
@@ -20,7 +21,6 @@ h1 {
     margin-top: 40px;
     margin-bottom: 5px;
     font-style: italic;
-    color: whitesmoke;
     
 }
 
@@ -30,7 +30,6 @@ h2 {
     margin-top: 50px;
     margin-bottom: 25px;
     font-style: italic;
-    color: whitesmoke;
 }
 
 ul {
@@ -41,7 +40,6 @@ ul {
 
 .fas {
     font-size: 1.8rem;
-    color: whitesmoke;
 }
 
 .subjects {
@@ -50,7 +48,6 @@ ul {
 
 .subjects > li {
     margin: 1%;
-    font-family: Roboto, sans-serif;
 }
 
 
