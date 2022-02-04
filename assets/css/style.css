@@ -89,17 +89,17 @@ footer{
     
 
 }
-
+/* custom code for traffic lights button hover feature*/
 .btn-green:hover {
     background-color: limegreen;
     color: whitesmoke;
 }
-
+/* custom code for traffic lights button hover feature*/
 .btn-orange:hover {
     background-color: gold;
     color: whitesmoke;
 }
-
+/* custom code for traffic lights button hover feature*/
 .btn-red:hover {
     background-color: red;
     color: whitesmoke;
