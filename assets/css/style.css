@@ -139,3 +139,25 @@ footer{
 
 /* quiz.html css below */
 
+/*credit Brian Design*/
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: lightblue;
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: rgba(25, 50, 190, 0.75);
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+    color: rgba(25, 50, 190, 0.75);
+}
