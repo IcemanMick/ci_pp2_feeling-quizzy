@@ -38,6 +38,11 @@ ul {
 
 /* subjects*/
 
+.subject-pictures {
+  text-align: center;
+
+}
+
 .fas {
     font-size: 1.8rem;
 }
