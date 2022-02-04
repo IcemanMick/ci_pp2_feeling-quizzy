@@ -200,7 +200,8 @@ footer{
 /* feedback form*/
 
 .feedback-section {
-    margin: 50px 10% 0 0;
+    margin: auto;
+    width: 50%;
     color: whitesmoke;
     background-color: lightblue;
     max-width: 600px;
