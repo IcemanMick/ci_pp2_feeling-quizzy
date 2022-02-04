@@ -171,6 +171,14 @@ footer{
     color: rgba(25, 50, 190, 0.75);
 }
 
+.correct {
+    background: limegreen;
+}
+
+.incorrect {
+    background: red;
+}
+
 .score-area {
     margin: 5px auto;
     width: 60%;
