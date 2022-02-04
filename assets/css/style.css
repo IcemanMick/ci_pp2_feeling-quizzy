@@ -38,10 +38,35 @@ ul {
 }
 
 
+.fas {
+    font-size: 1.8rem;
+    background: whitesmoke;
+}
+
+
+/* footer */
 footer{
     background: whitesmoke;
-    
+    height: 110px;
+    margin-bottom: 0;  
 }
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: rgba(25, 50, 190, 0.75);
+}
+
+/* home menu*/
 
 .home-menu {
     width: 50vw;
@@ -103,9 +128,4 @@ footer{
 .btn-red:hover {
     background-color: red;
     color: whitesmoke;
-}
-
-.fas {
-    font-size: 1.8rem;
-    background: whitesmoke;
 }
