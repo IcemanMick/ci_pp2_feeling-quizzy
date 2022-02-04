@@ -28,7 +28,7 @@ h2 {
     text-align: center;
     font-size: 2.2rem;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-style: italic;
     color: whitesmoke;
 }
@@ -41,7 +41,7 @@ ul {
 
 .fas {
     font-size: 1.8rem;
-    background: whitesmoke;
+    color: whitesmoke;
 }
 
 .subjects {
@@ -50,6 +50,7 @@ ul {
 
 .subjects > li {
     margin: 1%;
+    font-family: Roboto, sans-serif;
 }
 
 
