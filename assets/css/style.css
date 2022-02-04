@@ -196,3 +196,16 @@ footer{
     justify-content: center;
     text-align: center;
 }*/
+
+/* feedback form*/
+
+.feedback-section {
+    margin: 150px 10% 0 0;
+    color: whitesmoke;
+    background-color: lightblue;
+    max-width: 400px;
+    left: 50%;
+    padding: 30px;
+
+}
+
