@@ -29,16 +29,24 @@ h2 {
     font-size: 3rem;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-style: italic;
 }
+
+ul {
+    list-style-type: none;   
+}
+
 
 footer{
     background: yellow;
-}
-
-.subjects {
-    background: whitesmoke;
+    
 }
 
 .home-menu {
     background: green;
+}
+
+.fas {
+    font-size: 3.2rem;
+    background: whitesmoke;
 }
