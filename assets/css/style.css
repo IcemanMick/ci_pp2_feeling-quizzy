@@ -37,10 +37,19 @@ ul {
     list-style-type: none;   
 }
 
+/* subjects*/
 
 .fas {
     font-size: 1.8rem;
     background: whitesmoke;
+}
+
+.subjects {
+    text-align: center;
+}
+
+.subjects > li {
+    margin: 1%;
 }
 
 
