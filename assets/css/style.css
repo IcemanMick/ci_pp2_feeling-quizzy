@@ -232,3 +232,10 @@ footer{
     border: 1px solid black;
     border-radius: 2px;
 }
+
+.textarea-input {
+    background: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+}
