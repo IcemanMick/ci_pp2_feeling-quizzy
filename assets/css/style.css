@@ -137,14 +137,14 @@ footer{
     color: whitesmoke;
 }
 
-/* quiz.html css below */
+/* quiz.html css below*/
 
 /*credit Brian Design*/
 
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
-    width: 100%;
+    width: 50%;
     border-radius: 4px;
     background: lightblue;
     font-size: 3rem;
@@ -160,4 +160,11 @@ footer{
     padding: 2rem;
     width: 100%;
     color: rgba(25, 50, 190, 0.75);
+}
+
+.score-area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+    
 }
