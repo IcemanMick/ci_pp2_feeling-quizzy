@@ -1,1 +1,1 @@
-console.log("Connected!!");
+window.onload = console.log('The window has loaded!');

@@ -176,6 +176,10 @@ footer{
     color: rgba(25, 50, 190, 0.75);
 }
 
+.choice-container:hover {
+    background: gold;
+}
+
 .correct {
     background: limegreen;
 }
