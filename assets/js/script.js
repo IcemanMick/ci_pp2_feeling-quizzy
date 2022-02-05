@@ -55,9 +55,16 @@ let questions = [
     }
 ]
 
+const scorePoints = 1
+const maxQuestions = 5
+
 function startGame(){
     score = 0;
     availableQuestions =[...questions]
     getNextQuestion()
 }
 
+function getNewQuestion() {
+    if (availableQuestions.length === 0 || questionCounter > maxQuestions);
+    return window.location.assign('form.html')
+}
