@@ -1,5 +1,17 @@
+//CI
 window.onload = console.log('The window has loaded!');
 
+// quiz
+
+const question = document.getElementById('question');
+const choices = Array.from(document.getElementById('choice-text'));
+
+let currentQuestion={}
+let acceptingAnswers = true
+let score = 0
+let availableQuestions =[]
+
+//BD
 let questions = [
     {
         question: 'The area where a river meets the sea or ocean is called?',
@@ -42,3 +54,10 @@ let questions = [
         answer: 3,
     }
 ]
+
+function startGame(){
+    score = 0;
+    availableQuestions =[...questions]
+    getNextQuestion()
+}
+
