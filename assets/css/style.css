@@ -152,13 +152,16 @@ footer{
 /*credit Brian Design*/
 
 .choice-container {
-    display: flex;
-    margin-bottom: 0.8rem;
-    width: 50%;
-    border-radius: 4px;
-    background: lightblue;
-    font-size: 3rem;
-    min-width: 80rem;
+   background: lightblue;
+   display: flex;
+   justify-content: center;
+   width: 50%;
+   margin: auto;
+   font-size: 3rem;
+   margin-bottom: 0.8rem;
+   border: 4px solid whitesmoke;
+   border-radius: 4px;
+
 }
 
 .choice-prefix {
