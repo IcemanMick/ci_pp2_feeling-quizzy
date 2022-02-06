@@ -4,7 +4,7 @@ window.onload = console.log('The window has loaded!');
 // quiz
 
 const question = document.getElementById('question');
-const choices = Array.from(document.getElementById('choice-text'));
+const choices = Array.from(document.getElementsByClassName('choice-text'));
 
 let currentQuestion={}
 let acceptingAnswers = true
@@ -60,15 +60,58 @@ const maxQuestions = 5
 
 function startGame(){
     score = 0;
+    questionCounter = 0;
     availableQuestions =[...questions]
     getNextQuestion()
 }
 
-function getNewQuestion() {
-    if (availableQuestions.length === 0 || questionCounter > maxQuestions);
-    return window.location.assign('form.html')
+getNewQuestion = () => {
+    if (availableQuestions.length === 0 || questionCounter > maxQuestions)
+
+        return window.location.assign('form.html')
+    }
+
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+    currentQuestion = availableQuestions[questionsIndex]
+    question.innerText = currentQuestion, question
+
+    choices.forEach(choice => {
+        const number = choice.dataset['number']
+        choice.innerText = currentQuestion['choice'+ number]
+    })
+
+    availableQuestions.splice(questionsIndex, 1)
+
+    acceptingAnswers = true
+
+
+choices.forEach(choice => {
+    choice.addEventListener('click', e => {
+        if(!acceptingAnswers) return
+
+        acceptingAnswers = false
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number']
+
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' :'incorrect'
+
+        if (classToApply === 'correct') {
+            incrementScore(scorePoints)
+        }
+
+        selectedChoice.parentElement.classList.add(classToApply)
+
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply)
+            getNewQuestion()
+        
+        }, 20)
+    })
+})
+
+incrementScore = num =>{
+    score +=num
+    scoreText.innerText = score
 }
 
-let questionsIndex = Math.floor(Math.random().availableQuestions.length);
-currentQuestion = availableQuestions(questionsIndex);
-question.innerHTML = currentQuestion.questions;
+startGame()
