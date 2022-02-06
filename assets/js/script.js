@@ -68,3 +68,7 @@ function getNewQuestion() {
     if (availableQuestions.length === 0 || questionCounter > maxQuestions);
     return window.location.assign('form.html')
 }
+
+let questionsIndex = Math.floor(Math.random().availableQuestions.length);
+currentQuestion = availableQuestions(questionsIndex);
+question.innerHTML = currentQuestion.questions;
