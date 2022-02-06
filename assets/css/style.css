@@ -190,7 +190,7 @@ footer{
 
 .score-area {
     margin: 5px auto;
-    width: 20%;
+    width: 30%;
     font-size: 2rem;
     color: whitesmoke;
     display: flex;
@@ -212,6 +212,7 @@ footer{
     width: 150px;
     background-color: gold;
     border-radius: 50%;
+    padding: 10px;
 }
 
 /* feedback form*/
