@@ -4,12 +4,13 @@ window.onload = console.log('The window has loaded!');
 // quiz
 
 const question = document.getElementById('question');
+const scoreText = document.getElementById('score')
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 
 let currentQuestion = {}
 let acceptingAnswers = true
 let score = 0
-let questionCounter = 0 //needed?
+let questionCounter = 0 
 let availableQuestions = []
 
 //BD
@@ -56,19 +57,18 @@ let questions = [
     }
 ]
 
-const scorePoints = 1
-const maxQuestions = 5 
+const SCORE_POINTS = 1
+const MAX_QUESTIONS = 5 
 
 startGame = () => {
     questionCounter = 0
     score = 0
     availableQuestions = [...questions]
-    getNextQuestion()
+    getNewQuestion()
 }
 
-getNextQuestion = () => {
-    if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
-
+getNewQuestion = () => {
+    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         return window.location.assign('form.html')
     }
     
@@ -93,27 +93,27 @@ choices.forEach(choice => {
         if(!acceptingAnswers) return
 
         acceptingAnswers = false
-        const selectedChoice = e.target;
+        const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' :'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
-        if (classToApply === 'correct') {
-            incrementScore(scorePoints)
+        if (classToApply ==='correct') {
+            incrementScore(SCORE_POINTS)
         }
 
         selectedChoice.parentElement.classList.add(classToApply)
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
-            getNextQuestion()
-        
+            getNewQuestion()
+
         }, 20)
-    })
+  })
 })
 
-incrementScore = num =>{
-    score +=num
+incrementScore = num=> {
+    score+=num
     scoreText.innerText = score
 }
 
