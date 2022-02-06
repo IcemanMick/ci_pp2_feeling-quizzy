@@ -4,12 +4,13 @@ window.onload = console.log('The window has loaded!');
 // quiz
 
 const question = document.getElementById('question');
-const choices = Array.from(document.getElementsByClassName('choice-text'));
+const choices = Array.from(document.querySelectorAll('.choice-text'));
 
-let currentQuestion={}
+let currentQuestion = {}
 let acceptingAnswers = true
 let score = 0
-let availableQuestions =[]
+let questionCounter = 0 //needed?
+let availableQuestions = []
 
 //BD
 let questions = [
@@ -56,24 +57,26 @@ let questions = [
 ]
 
 const scorePoints = 1
-const maxQuestions = 5
+const maxQuestions = 5 
 
-function startGame(){
-    score = 0;
-    questionCounter = 0;
-    availableQuestions =[...questions]
+startGame = () => {
+    questionCounter = 0
+    score = 0
+    availableQuestions = [...questions]
     getNextQuestion()
 }
 
-getNewQuestion = () => {
-    if (availableQuestions.length === 0 || questionCounter > maxQuestions)
+getNextQuestion = () => {
+    if (availableQuestions.length === 0 || questionCounter > maxQuestions) {
 
         return window.location.assign('form.html')
     }
+    
+    questionCounter++
 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex]
-    question.innerText = currentQuestion, question
+    question.innerText = currentQuestion.question
 
     choices.forEach(choice => {
         const number = choice.dataset['number']
@@ -83,7 +86,7 @@ getNewQuestion = () => {
     availableQuestions.splice(questionsIndex, 1)
 
     acceptingAnswers = true
-
+}
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
