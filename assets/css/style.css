@@ -197,15 +197,22 @@ footer{
     justify-content: center;
     border: 4px solid whitesmoke;
 }
-/*
+
+.bottom-features {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background: lightgreen;
+    
+}
+
 .circle-btn {
     height: 150px;
     width: 150px;
     background-color: gold;
     border-radius: 50%;
-    justify-content: center;
-    text-align: center;
-}*/
+}
 
 /* feedback form*/
 
