@@ -106,7 +106,7 @@ choices.forEach(choice => {
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion()
+            getNextQuestion()
         
         }, 20)
     })
