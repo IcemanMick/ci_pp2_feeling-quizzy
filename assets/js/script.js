@@ -120,5 +120,22 @@ startGame()
 
 //countdown timer
 
+const startTime = 1;
+let time = startTime * 60;
+
+const timer = document.getElementById('timer');
+
+setInterval(countdown, 1000)
+
+function countdown() {
+    const minutes = Math.floor(time /60);
+    let seconds = time % 60;
+
+    seconds = seconds < 1 ? '0'+ seconds : seconds;
+
+    timer.innerHTML = `${minutes}:${seconds}`
+    time--;
+}
+
 //newsletter sign up form
 
