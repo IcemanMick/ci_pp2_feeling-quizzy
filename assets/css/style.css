@@ -36,9 +36,9 @@ ul {
     list-style-type: none;   
 }
 
-/* subjects*/
+/* categories*/
 
-.subject-pictures {
+.category-pics {
   text-align: center;
 
 }
@@ -51,11 +51,11 @@ img {
     font-size: 1.8rem;
 }
 
-.subjects {
+.categories {
     text-align: center;
 }
 
-.subjects > li {
+.categories > li {
     margin: 1%;
 }
 
