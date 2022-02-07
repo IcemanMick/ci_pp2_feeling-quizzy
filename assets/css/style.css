@@ -228,6 +228,14 @@ footer{
 
 }
 
+/* timeout "oops" page */
+
+#oops-image {
+    margin: auto;
+    width: 50%;
+   display: flex;
+   justify-content: center;
+
 /* upcoming categories*/
 
 .upcoming-categories {
