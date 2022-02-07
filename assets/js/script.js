@@ -118,14 +118,15 @@ incrementScore = num=> {
 
 startGame()
 
-//countdown timer
+// timer
 
-const startTime = 1;
+//credit code here
+const startTime = 1; //up timer to 10mins when ready
 let time = startTime * 60;
 
 const timer = document.getElementById('timer');
 
-setInterval(countdown, 1000)
+setInterval(countdown, 100) // up interval to 1000 when ready
 
 function countdown() {
     const minutes = Math.floor(time /60);
@@ -135,6 +136,17 @@ function countdown() {
 
     timer.innerHTML = `${minutes}:${seconds}`
     time--;
+
+
+    //timer warning for 5 mins left
+
+    //timer warning for 1 min left
+
+    //custom js - ran out of time
+    if(time === 0) {
+        return window.location.assign ('timeout.html');
+    }
+    
 }
 
 //newsletter sign up form
