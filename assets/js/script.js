@@ -1,7 +1,7 @@
 //CI
 window.onload = console.log('The window has loaded!');
 
-// quiz
+// quiz. credit to BD
 
 const question = document.getElementById('question');
 const scoreText = document.getElementById('score')
@@ -13,7 +13,6 @@ let score = 0
 let questionCounter = 0 
 let availableQuestions = []
 
-//BD
 let questions = [
     {
         question: 'The area where a river meets the sea or ocean is called?',
@@ -118,3 +117,8 @@ incrementScore = num=> {
 }
 
 startGame()
+
+//countdown timer
+
+//newsletter sign up form
+
