@@ -215,6 +215,12 @@ footer{
     padding: 10px;
 }
 
+/* upcoming categories*/
+
+.upcoming-categories {
+    text-align: center;
+}
+
 /* feedback form*/
 
 h3 {
