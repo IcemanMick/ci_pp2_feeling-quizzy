@@ -247,6 +247,8 @@ footer{
 /* upcoming categories image*/
 .upcoming-imgs {
     text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 
