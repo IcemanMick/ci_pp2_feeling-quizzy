@@ -121,18 +121,18 @@ startGame()
 // timer
 
 //credit code here
-const startTime = 1; //up timer to 10mins when ready
+const startTime = 10; //up timer to 10mins when ready
 let time = startTime * 60;
 
 const timer = document.getElementById('timer');
 
-setInterval(countdown, 100) // up interval to 1000 when ready
+setInterval(countdown, 1000) // up interval to 1000 when ready
 
 function countdown() {
     const minutes = Math.floor(time /60);
     let seconds = time % 60;
 
-    seconds = seconds < 1 ? '0'+ seconds : seconds;
+    seconds = seconds < 10 ? '0'+ seconds : seconds; //1 or 10
 
     timer.innerHTML = `${minutes}:${seconds}`
     time--;

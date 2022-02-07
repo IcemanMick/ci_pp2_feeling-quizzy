@@ -204,6 +204,7 @@ footer{
     display: flex;
     justify-content: center;
     background: lightgreen;
+    padding: 30px 20px 30px 0
     
 }
 
@@ -212,7 +213,6 @@ footer{
     width: 150px;
     background-color: gold;
     border-radius: 50%;
-    padding: 10px;
 }
 
 /* countdown timer*/
@@ -225,24 +225,18 @@ footer{
     border: 4px solid whitesmoke;
     border-radius: 4px;
     color: rgba(25, 50, 190, 0.75);
+    margin: 10px 10px 10px 10px;
 
 }
 
-/* timeout "oops" page */
 
-#oops-image {
-    margin: auto;
-    width: 50%;
-   display: flex;
-   justify-content: center;
+/*form.html*/
 
-/* upcoming categories*/
-
-.upcoming-categories {
+/* upcoming categories image*/
+.upcoming-imgs {
     text-align: center;
 }
 
-/* feedback form*/
 
 .feedback-container {
     margin: auto;
@@ -306,4 +300,24 @@ h3 {
 .submit-btn:hover {
     background: lime;
     color: whitesmoke;
+}
+
+#form-circle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* timeout "oops" page */
+
+#oops-image {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.try-again {
+    margin: 50px
 }
