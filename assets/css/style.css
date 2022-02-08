@@ -424,6 +424,16 @@ select {
     img {
         padding-bottom: 15px;
     }
+
+    h1 {
+        font-size: 3rem;
+        margin: 30px;
+        padding: 10px;
+    }
+
+    .choice-container {
+        font-size: 2.2rem;
+    }
 }
 
 /* for mobile devices*/
@@ -436,4 +446,26 @@ select {
         width: 20rem;
         padding-bottom: 10px;
     }
+
+    .choice-container {
+        font-size: 1.8rem;
+    }
+
+    .choice-text {
+        margin-right: 40px ;
+    }
+
+  .circle-btn {
+      height: 150px;
+      width: 150px;
+  }
+
+  .btn-font {
+      font-size: 1.5rem;
+  }
+
+  #bmh-btn {
+      margin-left: 20px;
+  }
+
 }
