@@ -167,7 +167,7 @@ footer{
 
 .choice-prefix {
     padding: 2rem 2.5rem;
-    color: rgba(25, 50, 190, 0.75);
+    color: whitesmoke;
 }
 
 .choice-text {
@@ -178,6 +178,10 @@ footer{
 
 .choice-container:hover {
     background: gold;
+}
+
+.choice-text:hover{
+    color: whitesmoke;
 }
 
 .correct {
