@@ -54,6 +54,8 @@ img {
 
 .categories {
     text-align: center;
+    margin: 15px;
+    padding: 15px;
 }
 
 .categories > li {
