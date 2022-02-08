@@ -148,6 +148,11 @@ footer{
     color: whitesmoke;
 }
 
+.btn-purple:hover {
+    background: rgba(208, 71, 107, 0.95);
+    color: whitesmoke;
+}
+
 /* quiz.html css below*/
 
 /*credit Brian Design*/
