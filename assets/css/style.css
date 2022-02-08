@@ -29,7 +29,7 @@ h2 {
     font-size: 2.2rem;
     margin-top: 25px;
     margin-bottom: 25px;
-    padding: 1px;
+    padding: 5px;
     font-style: italic;
 }
 
@@ -256,6 +256,7 @@ footer{
     justify-content: center;
     border: 4px solid whitesmoke;
     padding: 20px;
+    background: rgba(208, 71, 107, 0.95);
 }
 /*custom code*/
 .bottom-features {
@@ -309,6 +310,18 @@ footer{
 .results {
     display: flex;
     justify-content: center;
+}
+
+.results-area {
+    margin: 10px auto;
+    width: 30%;
+    font-size: 2rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    border: 4px solid whitesmoke;
+    padding: 20px;
+    background: rgba(208, 71, 107, 0.95);
 }
 
 .heading2 {
@@ -449,18 +462,30 @@ select {
         font-size: 1.8rem;
     }
 
-    .score-area {
-        background: green;
+    .results-area {
         display: inline;
         margin-left: 192px;
     }
 
-
-
+    .heading2 {
+        margin-top: 20px;
+        padding: 10px;
+        
+    }
 }
 
 /* for mobile devices*/
 @media screen and (max-width: 480px) {
+
+    h2 {
+        background: green;
+    }
+
+    .heading2 {
+        background: pink;
+        padding: 0px 20px 0px 20px;
+    }
+
     .categories {
         display: grid;
     }
@@ -489,6 +514,13 @@ select {
 
   #bmh-btn {
       margin-left: 20px;
-  }
+    }
+
+
+
+
+
+
 
 }
+
