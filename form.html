@@ -35,17 +35,18 @@
         <h2>Sign up for our newsletter below!!</h2
             <form class="feedback-form" method="POST" action="#">
                 <label for="fullname">Name:</label>
-                <input id="fullname" class="text-input" type="text" name="fullname" required>
+                <input id="fullname" class="text-input" type="text" name="fullname" value="" onchange="console.log('Full name is', value)" required>
                 <br>
                 <label for="email">Email Address:</label>
-                <input id="email" class="text-input" type="text" name="email" required>
+                <input id="email" class="text-input" type="text" name="email" value="" onchange="console.log('Email address is:', value)" required>
                 <br>
                 <label for="age">Age:</label>
-                <input id="age" class="number-input" type="number" name="age" required>
+                <input id="age" class="number-input" type="number" name="age" value="" onchange="console.log('Age is', value)" required>
                 <label for="score">My Score:</label>
-                <input id="score" class="number-input" type="number" name="score" required>
+                <input id="score" class="number-input" type="number" name="score" value="" onchange="console.log('Player score was', value)" required>
                 <br>
                 <label for="favcat">Favourite Category</label>
+                <!--credit-->
                 <select name="category" id="favcat" onchange="console.log('Favourite Category is',value);">
                     <option value="geography">Geography</option>
                     <option value="history">History</option>
@@ -55,7 +56,7 @@
                 <br>
                 <label for="extra-feedback">Additional Feedback/Comments:</label>
                 <br>
-                <textarea name="extra-feedback" id="extra-feedback" class="textarea-input" cols="60" rows="10"></textarea>
+                <textarea name="extra-feedback" id="extra-feedback" class="textarea-input" cols="40" rows="5" value="" onchange="console.log(value)" ></textarea>
                 <br>
                 <input class="submit-btn" type="submit" value="Sign Me Up!!">
             </form>

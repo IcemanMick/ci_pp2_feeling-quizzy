@@ -1,6 +1,12 @@
 //CI
 window.onload = console.log('The window has loaded!');
 
+//image changing
+
+
+
+
+
 // quiz. credit to BD
 
 const question = document.getElementById('question');
