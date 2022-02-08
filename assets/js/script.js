@@ -217,7 +217,6 @@ function countdown() {
     time--;
 
 
-    //timer warning for 1 min left
 
     //custom js - ran out of time
     if(time === 0) {
