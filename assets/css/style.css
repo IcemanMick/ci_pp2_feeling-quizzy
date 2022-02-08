@@ -96,28 +96,28 @@ footer{
     justify-content: center;
     align-items: center;
     max-width: 80rem;
-    margin: 0 auto;
-    padding: 1.75rem;
+    margin: 0 auto 10px;
+    padding: 1.5rem;
 }
-
+/*needed?*/
 .flex-column {
     display: flex;
     flex-direction: column;
 }
-
+/*needed?*/
 .flex-center {
     justify-content: center;
     align-items: center;
 }
-
+/*needed?*/
 .justify-center {
     justify-content: center;
 }
-
+/*needed*/
 .text-center {
     text-align: center;
 }
-
+/*needed?*/
 .hidden {
     display: none;
 }
@@ -414,4 +414,19 @@ select {
 
 .try-again {
     margin: 50px
+}
+
+
+/*media queries*/
+
+/* for ipads and tablets up to 768px*/
+@media screen and (max-width: 768px) {
+    img {
+        padding-bottom: 15px;
+    }
+}
+
+/* for mobile devices*/
+@media screen and (max-width: 480px) {
+    
 }
