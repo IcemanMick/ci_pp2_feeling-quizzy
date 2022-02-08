@@ -306,6 +306,11 @@ footer{
 
 /*results at top of page*/
 
+.results {
+    display: flex;
+    justify-content: center;
+}
+
 .heading2 {
     display: flex;
     justify-content: center;
@@ -442,6 +447,12 @@ select {
 
     h2 {
         font-size: 1.8rem;
+    }
+
+    .score-area {
+        background: green;
+        display: inline;
+        margin-left: 192px;
     }
 
 
