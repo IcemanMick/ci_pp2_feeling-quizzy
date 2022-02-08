@@ -45,8 +45,14 @@
                 <label for="score">My Score:</label>
                 <input id="score" class="number-input" type="number" name="score" required>
                 <br>
-                <label for="favtopic">Favourite Topic(drop down menu):</label>
-                <input id="favtopic" class="text-input" type="text" name="favtopic" required>
+                <label for="favcat">Favourite Category</label>
+                <select name="category" id="favcat" onchange="console.log('Favourite Category is',value);">
+                    <option value="geography">Geography</option>
+                    <option value="history">History</option>
+                    <option value="science">Science</option>
+                    <option value="sport">Sport</option>
+                </select>
+                <br>
                 <br>
                 <label for="extra-feedback">Additional Feedback/Comments:</label>
                 <br>
