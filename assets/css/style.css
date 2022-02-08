@@ -530,5 +530,9 @@ textarea {
         width: 100%
     }
 
+    .try-again {
+        padding: 65px;
+    }
+
 }
 
