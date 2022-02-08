@@ -152,7 +152,7 @@ function countdown() {
 //Don't cheat
 
 document.addEventListener ('DOMContentLoaded', () => {
-    document.querySelector('cheat').addEventListener('click', handleClickA);
+    document.querySelector('cheat').addEventListener('click');
 
     if('document' in window) {
         console.log('Cheated')
