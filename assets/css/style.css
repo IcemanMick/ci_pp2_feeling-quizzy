@@ -428,5 +428,12 @@ select {
 
 /* for mobile devices*/
 @media screen and (max-width: 480px) {
-    
+    .categories {
+        display: grid;
+    }
+
+    .btn {
+        width: 20rem;
+        padding-bottom: 10px;
+    }
 }
