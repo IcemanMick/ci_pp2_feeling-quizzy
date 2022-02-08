@@ -352,15 +352,20 @@ h3 {
     color: whitesmoke;
 }
 
+label {
+    display: block;
+}
+
 .feedback-form {
     color: lightblue;
-    margin-bottom: 20px;
+    margin: 10px 10px 50px 50px;
+    padding: 20px;
 }
 
 .text-input {
     background: whitesmoke;
     color: black;
-    width: 50%;
+    width: 80%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 2px solid black;
@@ -390,6 +395,10 @@ select {
     font-weight: bold;
 }
 
+textarea {
+    display: block;
+}
+
 .textarea-input {
     background: whitesmoke;
     color: black;
@@ -397,6 +406,7 @@ select {
     border-radius: 2px;
     font-weight: bold;
     font-size: 1.2rem;
+    width: 80%;
 }
 
 .submit-btn {
@@ -404,9 +414,9 @@ select {
     margin-bottom: 20px;
     border: 2px solid black;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 10px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     background-color: whitesmoke;
     color: rgba(25, 50, 190, 0.75);
@@ -477,7 +487,7 @@ select {
     }
 }
 
-/* for mobile devices*/
+/* for mobile devices up to 480px*/
 @media screen and (max-width: 480px) {
 
     h2 {
@@ -519,7 +529,9 @@ select {
       margin-left: 20px;
     }
 
-
+    .submit-btn {
+        width: 80%;
+    }
 
 
 }

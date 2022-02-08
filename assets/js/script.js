@@ -233,12 +233,12 @@ function countdown() {
 //newsletter sign up form
 
 function handleSubmit() {
-    event.preventDefault();
+    e.preventDefault();
 
-    let fname = document.getElementById('fullname');
+    let fname = document.getElementById('name');
     let email = document.getElementById('email');
     let age = document.getElementById('age');
-    let formScore = document.getElementById('formscore');
+    let formScore = document.getElementById('form-score');
     let faveCateg = document.getElementById('fave-categ')
     let extraFeedback = document.getElementById('extra-feedback');
 
@@ -250,5 +250,5 @@ function handleSubmit() {
     console.log('Extra feedback is:', extraFeedback.value)
 }
 
-let form = document.getElementById('sign-up-form');
+let form = document.getElementById('form');
 form.addEventListener('submit', handleSubmit);
