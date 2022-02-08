@@ -174,11 +174,6 @@ footer{
 
 }
 
-.choice-prefix {
-    padding: 2rem 2.5rem;
-    color: whitesmoke;
-}
-
 .choice-text {
     padding: 2rem;
     width: 100%;
@@ -315,7 +310,7 @@ footer{
 .results-area {
     margin: 10px auto;
     width: 30%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: whitesmoke;
     display: flex;
     justify-content: center;
@@ -482,20 +477,12 @@ textarea {
         padding: 10px;   
     }
 
-    .textarea-input {
-        background: green;
-    }
 }
 
 /* for mobile devices up to 480px*/
 @media screen and (max-width: 480px) {
 
-    h2 {
-        background: green;
-    }
-
     .heading2 {
-        background: pink;
         padding: 0px 20px 0px 20px;
     }
 
@@ -529,10 +516,18 @@ textarea {
       margin-left: 20px;
     }
 
+    .results-area {
+        display: inline;
+        margin-left: 96px;
+    }
+
     .submit-btn {
         width: 80%;
     }
 
+    .text-input, .textarea-input {
+        width: 100%
+    }
 
 }
 
