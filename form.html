@@ -33,7 +33,7 @@
     </div>
     <div class="feedback-container">
         <h2>Sign up for our newsletter below!!</h2>
-            <form id ="sign-up-form" class="feedback-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <form id ="sign-up-form" class="feedback-form" method="POST" action="/login/">
                 <label for="fullname">Name:</label>
                 <input id="fullname" class="text-input" type="text" name="fullname" required>
                 <br>
@@ -41,14 +41,26 @@
                 <input id="email" class="text-input" type="text" name="email" required>
                 <br>
                 <label for="age">Age:</label>
-                <input id="age" class="number-input" type="number" name="age" required>
+                <select name="age" id="age" required>
+                    <option value="under-20">Under 20</option>
+                    <option value="20s">20-29</option>
+                    <option value="30s">30-39</option>
+                    <option value="40s">40-49</option>
+                    <option value="50s">50-59</option>
+                    <option value="60+">60+</option>
+                </select>
                 <br>
                 <label for="score">My Score:</label>
-                <input id="formScore" class="number-input" type="number" name="score" required>
+                <select name="formScore" id="formScore" required>
+                    <option value="0-5">0-5</option>
+                    <option value="6-11">6-11</option>
+                    <option value="12-17">12-17</option>
+                    <option value="18-20">18-20</option>
+                </select>
                 <br>
                 <label for="faveCateg">Favourite Category</label>
                 <!--credit-->
-                <select name="category" id="fave-categ">
+                <select name="category" id="fave-categ" required>
                     <option value="geography">Geography</option>
                     <option value="history">History</option>
                     <option value="science">Science</option>

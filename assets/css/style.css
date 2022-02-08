@@ -469,8 +469,11 @@ select {
 
     .heading2 {
         margin-top: 20px;
-        padding: 10px;
-        
+        padding: 10px;   
+    }
+
+    .textarea-input {
+        background: green;
     }
 }
 
