@@ -124,8 +124,35 @@ incrementScore = num=> {
 
 startGame()
 
-// timer
+// custom Alert
 
+function customAlert() {
+    this.render = function (dialog) {
+        var winW = window.innerWidth;
+        var winH = window.innerHeight;
+        var dialogoverlay = document.getElementById('dialogoverlay');
+        var dialogbox = document.getElementById('dialogbox');
+        dialogoverlay.style.display = "block";
+        dialogoverlay.style.height = winH + "px";
+        dialogbox.style.left = (winW/2) - (550 * .5) + "px";
+        dialogbox.style.top = "100px";
+        dialogbox.style.display = "block";
+        document.getElementById('dialogboxhead').innerHTML = "Acknowledge This Message";
+        document.getElementById('dialogboxbody').innerHTML = dialog
+        document.getElementById('dialogboxfoot').innerHTML = '<button onclick = "alert.ok()">OK</button>';
+    }
+    this.ok = function(){
+        document.getElementById('dialogbox').style.display = "none";
+        document.getElementById('dialogoverlay').style.display = "none";
+
+    }
+
+}
+
+var alert = new customAlert();
+
+
+// timer
 //credit code here
 const startTime = 10; //up timer to 10mins when ready
 let time = startTime * 60;
@@ -155,20 +182,6 @@ function countdown() {
     
 }
 
-//Don't cheat
-
-document.addEventListener ('DOMContentLoaded', () => {
-    document.querySelector('cheat').addEventListener('click');
-
-    if('document' in window) {
-        console.log('Cheated')
-    }
-})
-
-function handleClickA(ev) {
-    alert('HEY NO CHEATING')
-}
-
 
 //results
 
@@ -176,3 +189,23 @@ function handleClickA(ev) {
 
 //newsletter sign up form
 
+function handleSubmit() {
+    event.preventDefault();
+
+    let fname = document.getElementById('fullname');
+    let email = document.getElementById('email');
+    let age = document.getElementById('age');
+    let formScore = document.getElementById('formscore');
+    let faveCateg = document.getElementById('fave-categ')
+    let extraFeedback = document.getElementById('extra-feedback');
+
+    console.log('Player full name is', fname.value);
+    console.log('Player email address is', email.value);
+    console.log('Player Age is:', age.value);
+    console.log('Player score is:', formScore.value);
+    console.log('Favourite category is:', faveCateg.value);
+    console.log('Extra feedback is:', extraFeedback.value)
+}
+
+let form = document.getElementById('sign-up-form');
+form.addEventListener('submit', handleSubmit);

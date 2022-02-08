@@ -37,6 +37,18 @@
   <div><p class="score-area">
       Your Score: <span id="score" > 0</span>/20</p>
     </div>
+    <!--pop up box-->
+    <div id="dialogoverlay"></div>
+    <div id="dialogbox">
+        <div>
+            <div id ="dialogboxhead"></div>
+            <div id="dialogboxbody"></div>
+            <div id="dialogboxfoot"></div>
+        </div>
+    </div>
+
+
+    <!--bottom buttons and timer-->
   <div class="bottom-features">
       <span>
         <a href="index.html"><button class="circle-btn" id="bmh-btn">
@@ -47,7 +59,7 @@
       </span>
       <span>
           <button class="circle-btn cheat">
-            <p class="btn-font" onclick="alert('LOOKS LIKE SOMEONES TRYING TO CHEAT!!!')">Don't<br>Cheat!</p>
+            <p class="btn-font" onclick="alert.render ('LOOKS LIKE SOMEONES TRYING TO CHEAT!!!')">Don't<br>Cheat!</p>
           </button>
       </span>
   </div>

@@ -32,22 +32,22 @@
         </div>
     </div>
     <div class="feedback-container">
-        <h2>Sign up for our newsletter below!!</h2
-            <form class="feedback-form" method="POST" action="#">
+        <h2>Sign up for our newsletter below!!</h2>
+            <form id ="sign-up-form" class="feedback-form" method="POST" action="/login/">
                 <label for="fullname">Name:</label>
-                <input id="fullname" class="text-input" type="text" name="fullname" value="" onchange="console.log('Full name is', value)" required>
+                <input id="fullname" class="text-input" type="text" name="fullname" required>
                 <br>
                 <label for="email">Email Address:</label>
-                <input id="email" class="text-input" type="text" name="email" value="" onchange="console.log('Email address is:', value)" required>
+                <input id="email" class="text-input" type="text" name="email" required>
                 <br>
                 <label for="age">Age:</label>
-                <input id="age" class="number-input" type="number" name="age" value="" onchange="console.log('Age is', value)" required>
+                <input id="age" class="number-input" type="number" name="age" required>
                 <label for="score">My Score:</label>
-                <input id="score" class="number-input" type="number" name="score" value="" onchange="console.log('Player score was', value)" required>
+                <input id="formScore" class="number-input" type="number" name="score" required>
                 <br>
-                <label for="favcat">Favourite Category</label>
+                <label for="faveCateg">Favourite Category</label>
                 <!--credit-->
-                <select name="category" id="favcat" onchange="console.log('Favourite Category is',value);">
+                <select name="category" id="fave-categ">
                     <option value="geography">Geography</option>
                     <option value="history">History</option>
                     <option value="science">Science</option>
