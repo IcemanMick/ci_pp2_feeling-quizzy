@@ -149,5 +149,24 @@ function countdown() {
     
 }
 
+//Don't cheat
+
+document.addEventListener ('DOMContentLoaded', () => {
+    document.querySelector('cheat').addEventListener('click', handleClickA);
+
+    if('document' in window) {
+        console.log('Cheated')
+    }
+})
+
+function handleClickA(ev) {
+    alert('HEY NO CHEATING')
+}
+
+
+//results
+
+
+
 //newsletter sign up form
 
