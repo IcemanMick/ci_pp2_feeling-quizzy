@@ -294,6 +294,16 @@ h3 {
     border-radius: 2px;
 }
 
+select {
+    border: 2px solid black;
+    background: whitesmoke;
+    border-radius: 2px;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .textarea-input {
     background: whitesmoke;
     color: black;
