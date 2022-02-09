@@ -232,22 +232,23 @@ function countdown() {
 
 //newsletter sign up form
 
-function handleSubmit() {
-    e.preventDefault();
+function handleSubmit(event) {
+    event.preventDefault();
 
-    let fname = document.getElementById('name');
+    let name = document.getElementById('name');
     let email = document.getElementById('email');
     let age = document.getElementById('age');
     let formScore = document.getElementById('form-score');
     let faveCateg = document.getElementById('fave-categ')
     let extraFeedback = document.getElementById('extra-feedback');
 
-    console.log('Player full name is', fname.value);
-    console.log('Player email address is', email.value);
+    console.log('Player full name is:', name.value);
+    console.log('Player email address is:', email.value);
     console.log('Player Age is:', age.value);
     console.log('Player score is:', formScore.value);
     console.log('Favourite category is:', faveCateg.value);
     console.log('Extra feedback is:', extraFeedback.value)
+
 }
 
 let form = document.getElementById('form');

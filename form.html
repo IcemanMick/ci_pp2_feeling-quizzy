@@ -49,7 +49,7 @@
     </div>
     <div class="feedback-container">
         <h2>Sign up for our newsletter below!!</h2>
-            <form id ="form" class="feedback-form" method="POST" action="/login/">
+            <form id ="form" class="feedback-form" onsubmit="handleSubmit(event)" method="POST" action="">
                 <label for="name">Name:</label>
                 <input id="name" class="text-input" type="text" name="name" required>
                 <br>
@@ -85,7 +85,7 @@
                 <br>
                 <label for="extra-feedback">Additional Feedback/Comments:</label>
                 <br>
-                <textarea name="extra-feedback" id="extra-feedback" class="textarea-input" cols="40" rows="5" value="" onchange="console.log(value)" ></textarea>
+                <textarea name="extra-feedback" id="extra-feedback" class="textarea-input" cols="40" rows="5" value=""></textarea>
                 <br>
                 <input class="submit-btn" type="submit" value="Sign Me Up!!">
             </form>
