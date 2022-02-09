@@ -225,6 +225,9 @@ function countdown() {
     
 }
 
+//random pub quiz team name generator on timeout page
+
+
 
 //results - code to be added
 

@@ -39,3 +39,46 @@ insert link to live website here
     2. [Media](#media)
 11. [Final Thoughts](#final-thoughts)
 
+## Introduction
+
+### Background
+"Feeling "Quizzy" is a fun, interactive, multi-choice answer quiz website. In keeping with the tradition of pub quiz team names being pun based, "Feeling Quizzy" is based phonetically off the phrase "feeling dizzy".
+
+The overall tone of the website is lighthearted and sometimes tongue-in-cheek. The purpose of the website is to provide a fun and interactive experience for the user, while at the same time possibly being educational.
+
+The quiz itself consists of 20 questions from four different categories with four possible answers. In all cases, only one answer is correct, however, some of the answers themselves are ficticious. 
+
+To provide a level of difficulty and uncertainty, some answers, such as year numbers, are deliberately similar. This is to make the user second guess themselves on an answer they would have initially been confident of. 
+
+## Objectives
+
+### Site Visitors
+The objectives of the site visitors can be split into two categories:
+1. First Time Visitors;
+2. Return Visitors.
+
+#### First Time Visitors:
+- May wish to test themselves for fun.
+- May wish to practice for an upcoming pub quiz where real prizes can be won.
+- Can take the quiz to educate themselves on the categories covered in the questions.
+- Can use the quiz with friends at parties they host/attend.
+- May play the quiz to pass their time leisurely e.g. if travelling on public transport or in a waiting room.
+
+#### Returning Visitors
+In addition to having the same objectives as First Time Visitors, Returning Visitors:
+- May attempt to better their previous score.
+- May attempt to better their previous time.
+- Can check if new questions or categories have been added.
+- Can sign up for a an email newsletter to receive updates.
+
+### Site Owners
+The objectives of the site owners are:
+- To provide a quiz in a format that is generally accepted and familiar to the public.
+- To provide an enjoyable experience for users.
+- To provide an interactive experience to users.
+- To to provide a fun, and at times, humourous experience to users.
+- To educate users on categories they may not be strong with.
+- To provide reusability of content.
+- To receive detailed feedback from users.
+- To encourage users to sign up for the email newsletter, which has potential for commericial purposes, such as advertisement or future merchandise selling.
+
