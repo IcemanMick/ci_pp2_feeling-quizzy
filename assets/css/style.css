@@ -446,7 +446,7 @@ textarea {
 }
 
 
-/*media queries*/
+/*media queries for tablets 768px x 882px and mobile devices 480px x 882px*/
 
 /* for ipads and tablets up to 768px*/
 @media screen and (max-width: 768px) {
