@@ -48,13 +48,16 @@
             </div>
     </div>
     <div class="feedback-container">
-        <h2>Sign up for our newsletter below!!</h2>
-            <form id ="form" class="feedback-form" onsubmit="handleSubmit(event)" method="POST" action="/login/">
+        <h2>Sign up for our newsletter below!</h2>
+            <form id ="form" class="feedback-form" onsubmit="handleSubmit(event)" method="POST" action="#">
                 <label for="name">Name:</label>
                 <input id="name" class="text-input" type="text" name="name" required>
                 <br>
                 <label for="email">Email Address:</label>
                 <input id="email" class="text-input" type="text" name="email" required>
+                <br>
+                <label for="conf-email">Confirm Email Address:</label>
+                <input id="conf-email"class="text-input" type="text" name="conf-email" required>
                 <br>
                 <label for="age">Age:</label>
                 <select name="age" id="age" required>
@@ -68,6 +71,7 @@
                 <br>
                 <label for="score">My Score:</label>
                 <select name="formScore" id="form-score" required>
+                    <option value=""></option>
                     <option value="0-5">0-5</option>
                     <option value="6-11">6-11</option>
                     <option value="12-17">12-17</option>
@@ -76,6 +80,7 @@
                 <br>
                 <label for="faveCateg">Favourite Category</label>
                 <select name="category" id="fave-categ" required>
+                    <option value=""></option>
                     <option value="geography">Geography</option>
                     <option value="history">History</option>
                     <option value="science">Science</option>
@@ -89,8 +94,11 @@
                 <input class="submit-btn" type="submit" value="Sign Me Up!!">
             </form>
     </div>
-    <!--form submission acknowledgment box-->
+    <!-- hidden form submission acknowledgment box-->
     <div id = acknowledgment>
+    </div>
+    <!--hidden error message if emails don't validate-->
+    <div id="error-msg">
     </div>
     <!--home button-->
     <div class="bottom-features">

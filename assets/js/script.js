@@ -41,7 +41,7 @@ function customConfirm() {
 var confirm = new customConfirm(); */
 
 
-
+/*basic confirmation check for home menu*/
 function checker() {
     var result = confirm('Are you ready to start the quiz?');
     if (result == false){
@@ -167,7 +167,7 @@ incrementScore = num=> {
 startGame();
 
 
-//confirm to exit game
+//confirm to exit game. need to add code
 
 
 // pop up window for Don't Cheat button
@@ -200,25 +200,25 @@ function customAlert() {
 
 // timer
 //credit code here
-const startTime = 10; //up timer to 10mins when ready
+const startTime = 1; //up timer to 10mins when ready
 let time = startTime * 60;
 
 const timer = document.getElementById('timer');
 
-setInterval(countdown, 1000) // up interval to 1000 when ready
+setInterval(countdown, 100) // up interval to 1000 when ready
 
 function countdown() {
     const minutes = Math.floor(time /60);
     let seconds = time % 60;
 
-    seconds = seconds < 10 ? '0'+ seconds : seconds; //1 or 10
+    seconds = seconds < 1 ? '0'+ seconds : seconds; //1 or 10
 
     timer.innerHTML = `${minutes}:${seconds}`
     time--;
 
 
 
-    //custom js - ran out of time
+    //custom js - when timer gets to zero. prevents negative numbers and sends player to timeout.html
     if(time === 0) {
         return window.location.assign ('timeout.html');
     }
@@ -226,17 +226,18 @@ function countdown() {
 }
 
 
-//results
+//results - code to be added
 
 
 
 //newsletter sign up form
 
 
-//getting form values
+//getting form values, submission, and validation
 function handleSubmit(event) {
     event.preventDefault();
 
+    let form =document.getElementById('form')
     let name = document.getElementById('name');
     let email = document.getElementById('email');
     let age = document.getElementById('age');
@@ -251,17 +252,26 @@ function handleSubmit(event) {
     console.log('Favourite category is:', faveCateg.value);
     console.log('Extra feedback is:', extraFeedback.value)
     
-    
-    let fname = document.getElementById('name');
-    let html = `
-    <p>Thanks for subscribing ${fname}</p>!`
+    let email1 = form.elements['email'].value;
+    let email2 = form.elements['conf-email'].value;
 
-    let acknowledgementDiv = document.getElementById('acknowledgment');
-    acknowledgementDiv.innerHTML = html;
-    acknowledgementDiv.style.display = 'block';
+    if (email1 !== email2){
+        let errorMsg = document.getElementById('error-msg');
+        errorMsg.innerHTML = `<p>Ugh-oh, your emails do not match! Please correct and resubmit.</p>`;
+        errorMsg.style.display = 'block';
 
-    /*form.submit()*/
+        console.log('Email not validated!');
+        }
+        else {
+            let html = `
+            <p>Thanks for subscribing! We'll email you shortly with info on how to activate your account!</p>`
 
+            let acknowledgementDiv = document.getElementById('acknowledgment');
+            acknowledgementDiv.innerHTML = html;
+            acknowledgementDiv.style.display = 'block';
+
+            console.log('Email successfully validated!');
+        /*form.submit()*/}
 }
 
 let form = document.getElementById('form');

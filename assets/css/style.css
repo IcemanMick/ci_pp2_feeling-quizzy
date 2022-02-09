@@ -447,12 +447,26 @@ textarea {
     border: 4px solid black;
     border-radius: 4px;
     padding: 10px;
-    width: 50%;
+    width: fit-content;
     margin: 10px auto;
-    color: rgba(25, 50, 190, 0.75);
+    color: black;
+    font-size: bold;
 
 }
 
+#error-msg {
+    background: red;
+    display: none;
+    border: 4px solid black;
+    border-radius: 4px;
+    width: 50%;
+    margin: 10px auto;
+    color: black;
+    font-size: bold;
+    text-align: center;
+    
+
+}
 
 
 /* timeout "oops" page */
