@@ -241,6 +241,14 @@ footer{
     padding: 10px;
     text-align: right;
 }
+/* custom ok button design css*/
+#dontcheatbox > div > #dontcheatboxfoot > button {
+    color: rgba(25, 50, 190, 0.75);
+    background: whitesmoke;
+    border: 1px solid rgba(25, 50, 190, 0.75);
+    border-radius: 4px;
+    font-weight: bold;
+}
 
 /*custom code*/
 .score-area {
