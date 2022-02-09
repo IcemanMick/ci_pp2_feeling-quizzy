@@ -349,6 +349,8 @@ footer{
     border-radius: 4px;
 }
 
+/*newsletter sign up form*/
+
 h3 {
     font-size: 2.2rem;
     text-align: center;
@@ -438,6 +440,16 @@ textarea {
     justify-content: center;
     text-align: center;
 }
+
+#acknowledgment {
+    background: whitesmoke;
+    display: none;
+    border: 4px solid rgba(25, 50, 190, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+}
+
 
 
 /* timeout "oops" page */
