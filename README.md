@@ -82,3 +82,28 @@ The objectives of the site owners are:
 - To receive detailed feedback from users.
 - To encourage users to sign up for the email newsletter, which has potential for commericial purposes, such as advertisement or future merchandise selling.
 
+## User Stories
+
+### First Time Users
+1. As a first time user, I want to know what the purpose of the website is.
+2. As a first time user, I want to know what categories are covered in the quiz.
+3. As a first time user, I want to know what is the tone of this website and is this quiz going to be fun.
+4. As a first time user I want to know...
+5. As a first time user, I want to know is the website easy to use.
+
+### Returning Users
+6. As a returning user, I want to know if the questions are in the same order.
+7. As a returning user, I want to know if what happens if I run out of time.
+8. As a returning user, I want to know if the site owners have a social media presence and how can I find it.
+9. As a returning user I want to know if the future categories are being updated.
+10. As a returning user, I want to know if I can receive updates without visiting the website.
+
+### Site Owners
+
+11. As a site owner, I want to my website to be visually appealing and easy to navigate.
+12. As a site owner, I want users to know that the tone of this website is lighthearted and tongue-in-cheek.
+13. As a site owner, I want to update users with upcoming categories.
+14. As a site owner, I want to gather important feedback from users.
+15. As a site owner, I want to encourage users to sign up for the email newsletter.
+
+
