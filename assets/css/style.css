@@ -198,7 +198,7 @@ footer{
 }
 
 /* don't cheat pop up*/
-#dialogoverlay {
+#dontcheatoverlay {
     display: none;
     opacity: .8;
     position: fixed;
@@ -209,7 +209,7 @@ footer{
     z-index: 10;
 }
 
-#dialogbox {
+#dontcheatbox {
     display: none;
     position: fixed;
     background: rgba(25, 50, 190, 0.75);
@@ -218,25 +218,25 @@ footer{
     z-index: 10;
 }
 
-#dialogbox > div{
+#dontcheatbox > div{
     background: black;
     margin: 8px;
 }
 
-#dialogbox > div > #dialogboxhead {
+#dontcheatbox > div > #dontcheatboxhead {
     background: lightblue;
     font-size: 19px;
     padding: 10px;
     color: rgba(25, 50, 190, 0.75);
 }
 
-#dialogbox > div > #dialogboxbody {
+#dontcheatbox > div > #dontcheatboxbody {
     background: whitesmoke;
     padding: 20px;
     color: rgba(25, 50, 190, 0.75);
 }
 
-#dialogbox > div > #dialogboxfoot {
+#dontcheatbox > div > #dontcheatboxfoot {
     background: lightblue;
     padding: 10px;
     text-align: right;
@@ -534,7 +534,7 @@ textarea {
         padding: 65px;
     }
 
-    #dialogbox {
+    #dontcheatbox {
         width: 260px;
         margin-left: 145px ;
     }

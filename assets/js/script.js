@@ -177,20 +177,20 @@ function customAlert() {
     this.render = function (dialog) {
         var winW = window.innerWidth;
         var winH = window.innerHeight;
-        var dialogoverlay = document.getElementById('dialogoverlay');
-        var dialogbox = document.getElementById('dialogbox');
+        var dialogoverlay = document.getElementById('dontcheatoverlay');
+        var dialogbox = document.getElementById('dontcheatbox');
         dialogoverlay.style.display = "block";
         dialogoverlay.style.height = winH + "px";
         dialogbox.style.left = (winW/2) - (550 * .5) + "px";
         dialogbox.style.top = "100px";
         dialogbox.style.display = "block";
-        document.getElementById('dialogboxhead').innerHTML = "Ugh-oh!";
-        document.getElementById('dialogboxbody').innerHTML = dialog
-        document.getElementById('dialogboxfoot').innerHTML = '<button onclick = "alert.ok()">OK</button>';
+        document.getElementById('dontcheatboxhead').innerHTML = "Ugh-oh!";
+        document.getElementById('dontcheatboxbody').innerHTML = dialog
+        document.getElementById('dontcheatboxfoot').innerHTML = '<button onclick = "alert.ok()">OK</button>';
     }
     this.ok = function(){
-        document.getElementById('dialogbox').style.display = "none";
-        document.getElementById('dialogoverlay').style.display = "none";
+        document.getElementById('dontcheatbox').style.display = "none";
+        document.getElementById('dontcheatoverlay').style.display = "none";
 
     }
 
