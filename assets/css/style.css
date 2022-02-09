@@ -450,7 +450,6 @@ textarea {
     width: fit-content;
     margin: 10px auto;
     color: black;
-    font-size: bold;
 
 }
 
@@ -462,7 +461,6 @@ textarea {
     width: 50%;
     margin: 10px auto;
     color: black;
-    font-size: bold;
     text-align: center;
     
 
@@ -574,6 +572,10 @@ textarea {
     #dontcheatbox {
         width: 260px;
         margin-left: 145px ;
+    }
+
+    #acknowledgment {
+        margin: 10px
     }
 
 }
