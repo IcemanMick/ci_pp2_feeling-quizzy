@@ -132,7 +132,7 @@ getNewQuestion = () => {
 
     availableQuestions.splice(questionsIndex, 1)
 
-    acceptingAnswers = true
+    acceptingAnswers = true;
 }
 
 choices.forEach(choice => {
@@ -164,7 +164,7 @@ incrementScore = num=> {
     scoreText.innerText = score
 }
 
-startGame()
+startGame();
 
 
 //confirm to exit game
