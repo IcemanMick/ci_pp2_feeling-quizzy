@@ -133,7 +133,7 @@ getNewQuestion = () => {
     availableQuestions.splice(questionsIndex, 1);
 
     acceptingAnswers = true;
-}
+};
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
@@ -162,7 +162,7 @@ choices.forEach(choice => {
 incrementScore = num=> {
     score+=num;
     scoreText.innerText = score;
-}
+};
 
 startGame();
 
@@ -192,7 +192,7 @@ function customAlert() {
         document.getElementById('dontcheatbox').style.display = "none";
         document.getElementById('dontcheatoverlay').style.display = "none";
 
-    }
+    };
 
 }var alert = new customAlert();
 
@@ -242,7 +242,7 @@ function handleSubmit(event) {
     let email = document.getElementById('email');
     let age = document.getElementById('age');
     let formScore = document.getElementById('form-score');
-    let faveCateg = document.getElementById('fave-categ')
+    let faveCateg = document.getElementById('fave-categ');
     let extraFeedback = document.getElementById('extra-feedback');
 
     console.log('Player full name is:', name.value);
@@ -250,7 +250,7 @@ function handleSubmit(event) {
     console.log('Player Age is:', age.value);
     console.log('Player score is:', formScore.value);
     console.log('Favourite category is:', faveCateg.value);
-    console.log('Extra feedback is:', extraFeedback.value)
+    console.log('Extra feedback is:', extraFeedback.value);
     
     let email1 = form.elements['email'].value;
     let email2 = form.elements['conf-email'].value;
