@@ -99,7 +99,6 @@ The objectives of the site owners are:
 10. As a returning user, I want to know if I can receive updates without visiting the website.
 
 ### Site Owners
-
 11. As a site owner, I want to my website to be visually appealing and easy to navigate.
 12. As a site owner, I want users to know that the tone of this website is lighthearted and tongue-in-cheek.
 13. As a site owner, I want to update users with upcoming categories.
@@ -109,7 +108,6 @@ The objectives of the site owners are:
 ## Website Design
 
 ### Layout
-
 Quiz websites should be simple and easy to navigate. The steps to start and finish a quiz should be obvious and the answer buttons should be large and appropriately spaced so that distinct answer selection is not a problem.
 
 With too many features or complexes designs, a user may be put off, and may seek an alternative quiz option. The internet is full of interactive quizzes to choose from, so simplicity of design and execution is important to not only encourage game commencement, but also repeat visits.
@@ -118,11 +116,10 @@ The website consists of four pages:
 
 - Home Page
 - Quiz Page
-- Updates and Newsletter Sign Up Page
+- News and Feedback Page
 - Timeout Page (should the user not complete the quiz in the alotted time)
 
 ### Colour Choices
-
 The main colours used in the website are a blue/navy colour called rgba (25, 50, 190, 0.75), and a standard Light Blue with Whitesmoke borders on the buttons. These colours are in honour of the Dublin GAA jersey colours, as I'm from Dublin in Ireland.
 
 <details><summary>rgba (25, 50, 190, 0.75)</summary><img src="./assets/docs/features/001_rgba_color1.png"></details>
@@ -136,4 +133,101 @@ A second light purple/pink colour was used to provide some additional variety an
 
 Whitesmoke background was used again on the footer to alert the user to the bottom of the page and its social media links.
 
+### Structure
+Each page structure is similar with the main purpose of the page in a large heaidng at the top and a social media footer at the base. The main content (menus, answers, forms) are centrally located. This consistency ensures a positive visitor experience as the visitor never has to go looking for something; information is always where it is expected to be.
 
+The symmetry of the four current categories on the home page and the four upcoming categories on the newsletter sign up page serve as "book-ends" to the website.
+
+### Wireframes
+Wireframes were created using the programme Balsamiq.
+
+### Font
+Roboto from[Google Fonts](https://fonts.google.com/specimen/Roboto) is used for the website. Alternative fallback font used is Sans-Serif.
+
+## Features
+
+### Social Media
+
+### Future Ideas
+
+## Testing
+
+Testing was conducted over seven main categories:
+1. HTML Validation
+2. CSS Validation
+3. JavaScript Validation
+4. Performance
+5. Accessibility
+6. Browsers
+7. Devices
+
+Each of the below four webpages were tested in the above categories:
+
+1. Home
+2. Quiz
+3. News and Feedback
+4. Timeout Page
+
+### HTML Validation
+The HTML of each webpage was passed through the [W3c HTML Validator Website](https://validator.w3.org/).
+
+### CSS Validation
+Each webpage was passed through the [W3C CSS Validator Website](https://jigsaw.w3.org/css-validator/) also known as "Jigsaw".
+
+### JavaScript
+
+### Performance
+The Lighthouse feature in Google Chrome Developer Tools was used to test the performance of each webpage.
+
+### Accessibility
+
+The [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used to test the accessibility of the website.
+
+### Browsers
+All webpages have been tested on the following browsers:
+- Google Chrome
+- Safari
+- Internet Explorer
+
+### Devices
+All webpages have been tested on the following devices:
+- Lenovo Z50 laptop
+- iPad
+- OnePlus 7 mobile phone
+
+## Deployment
+
+This website was deployed using Github Pages. The steps for deployment on Github Pages are as follows:
+1. Select Github repository: IcemanMick/ci_pp2_feeling-quizzy.
+2. Click "Settings" option on the navigation menu.
+3. Scroll down through the settings to the "Github Pages" section and click on it.
+4. On the source section "Branch Menu", click on the drop down menu and select "Branch: Main".
+5. Once clicked, an URL to the website will appear.
+6. Please note, it may take a few minutes to load, but the link will work and bring you to "FeelingQuizzy" website.
+
+Please find a live link to the website above the Table of Contents title on thie README.md and additionally here: 
+
+## Technolog Used
+
+- Git
+- GitHub
+- GitHub Pages
+- Gitpod
+- Balsamiq
+- HTML
+- CSS
+- JavaScript
+- Google Chrome
+- Internet Explorer
+- Safari
+- Font Awesome
+- Google Fonts
+- Snipping Tool
+
+## Credits
+
+### Content
+
+### Media
+
+## Final Thoughts
