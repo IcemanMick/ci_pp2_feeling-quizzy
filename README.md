@@ -175,6 +175,7 @@ The HTML of each webpage was passed through the [W3c HTML Validator Website](htt
 Each webpage was passed through the [W3C CSS Validator Website](https://jigsaw.w3.org/css-validator/) also known as "Jigsaw".
 
 ### JavaScript
+Each webpage was passed through [JSHint JavaScript Validator](https://jshint.com/).
 
 ### Performance
 The Lighthouse feature in Google Chrome Developer Tools was used to test the performance of each webpage.
@@ -207,7 +208,7 @@ This website was deployed using Github Pages. The steps for deployment on Github
 
 Please find a live link to the website above the Table of Contents title on thie README.md and additionally here: 
 
-## Technolog Used
+## Technology Used
 
 - Git
 - GitHub

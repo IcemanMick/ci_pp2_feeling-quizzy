@@ -1,46 +1,6 @@
 //CI
 window.onload = console.log('The window has loaded!');
 
-//confirmation
-
-/*
-function customConfirm() {
-    this.render = function(dialog) {
-        var winW = window.innerWidth;
-        var winH = window.innerHeight;
-        var confirmOverlay = document.getElementById('confirm-overlay');
-        var confirmBox= document.getElementById('confirm-box');
-        confirmOverlay.style.display = "block";
-        confirmBox.style.height = winH +"px";
-        confirmBox.style.left = (winW/2) - (550 * .5)+"px";
-        confirmBox.style.top = "100px";
-        confirmBox.style.display = "block";
-
-        document.getElementById('confirm-boxhead').innerHTML = "Confirm that action";
-        document.getElementById('confirm-boxbody').innerHTML = dialog;
-        document.getElementById('confirm-boxfoot').innerHTML = '<button onclick="confirm.yes()>Yes</button> <button = onclick="confirm.no()">No</button>';
-
-        this.no = function() {
-            var result = confirm("confirm.no");
-            if(result == false){
-                event.preventDefault();
-            }
-            document.getElementById('confirm-box').style.display = "none";
-            document.getElementById('confirm-overlay').style.display ="none";
-        }
-        this.yes = function() {
-            if (op == ""){
-                return window.location.assign('quiz.html');
-            }
-        }
-        document.getElementById('confirm-box').style.display ="none";
-        document.getElementById('confirm-overlay').style.display ="none";
-    }
-}
-
-var confirm = new customConfirm(); */
-
-
 /*basic confirmation check for home menu*/
 function checker() {
     var result = confirm('Are you ready to start the quiz?');
