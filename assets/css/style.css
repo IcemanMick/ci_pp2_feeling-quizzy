@@ -444,10 +444,13 @@ textarea {
 #acknowledgment {
     background: whitesmoke;
     display: none;
-    border: 4px solid rgba(25, 50, 190, 0.75);
+    border: 4px solid black;
     border-radius: 4px;
     padding: 10px;
-    width: 300px;
+    width: 50%;
+    margin: 10px auto;
+    color: rgba(25, 50, 190, 0.75);
+
 }
 
 

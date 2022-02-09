@@ -250,12 +250,22 @@ function handleSubmit(event) {
     console.log('Player score is:', formScore.value);
     console.log('Favourite category is:', faveCateg.value);
     console.log('Extra feedback is:', extraFeedback.value)
+    
+    
+    let fname = document.getElementById('name');
+    let html = `
+    <p>Thanks for subscribing ${fname}</p>!`
 
-    /*form.submit();*/
+    let acknowledgementDiv = document.getElementById('acknowledgment');
+    acknowledgementDiv.innerHTML = html;
+    acknowledgementDiv.style.display = 'block';
+
+    /*form.submit()*/
 
 }
 
 let form = document.getElementById('form');
 form.addEventListener('submit', handleSubmit);
 
-//form submission
+
+
