@@ -52,14 +52,14 @@ function checker() {
 // quiz. credit to BD
 
 const question = document.getElementById('question');
-const scoreText = document.getElementById('score')
+const scoreText = document.getElementById('score');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 
-let currentQuestion = {}
-let acceptingAnswers = true
-let score = 0
-let questionCounter = 0 
-let availableQuestions = []
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0 ;
+let availableQuestions = [];
 
 let questions = [
     {
@@ -102,66 +102,66 @@ let questions = [
         choice4: '4',
         answer: 3,
     }
-]
+];
 
-const SCORE_POINTS = 1
-const MAX_QUESTIONS = 5 
+const SCORE_POINTS = 1;
+const MAX_QUESTIONS = 5;
 
 startGame = () => {
-    questionCounter = 0
-    score = 0
-    availableQuestions = [...questions]
-    getNewQuestion()
-}
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
+};
 
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
-        return window.location.assign('form.html')
+        return window.location.assign('form.html');
     }
     
-    questionCounter++
+    questionCounter++;
 
-    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions[questionsIndex]
-    question.innerText = currentQuestion.question
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionsIndex];
+    question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
-        const number = choice.dataset['number']
-        choice.innerText = currentQuestion['choice'+ number]
-    })
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['choice'+ number];
+    });
 
-    availableQuestions.splice(questionsIndex, 1)
+    availableQuestions.splice(questionsIndex, 1);
 
     acceptingAnswers = true;
 }
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-        if(!acceptingAnswers) return
+        if(!acceptingAnswers) return;
 
-        acceptingAnswers = false
-        const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataset['number']
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number'];
 
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToApply ==='correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(SCORE_POINTS);
         }
 
-        selectedChoice.parentElement.classList.add(classToApply)
+        selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion()
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
 
-        }, 20)
-  })
-})
+        }, 20);
+  });
+});
 
 incrementScore = num=> {
-    score+=num
-    scoreText.innerText = score
+    score+=num;
+    scoreText.innerText = score;
 }
 
 startGame();
@@ -181,13 +181,13 @@ function customAlert() {
         var dialogbox = document.getElementById('dontcheatbox');
         dialogoverlay.style.display = "block";
         dialogoverlay.style.height = winH + "px";
-        dialogbox.style.left = (winW/2) - (550 * .5) + "px";
+        dialogbox.style.left = (winW/2) - (550 * '.5') + "px"; //decimal point before 5
         dialogbox.style.top = "100px";
         dialogbox.style.display = "block";
         document.getElementById('dontcheatboxhead').innerHTML = "Ugh-oh!";
-        document.getElementById('dontcheatboxbody').innerHTML = dialog
+        document.getElementById('dontcheatboxbody').innerHTML = dialog;
         document.getElementById('dontcheatboxfoot').innerHTML = '<button onclick = "alert.ok()">OK</button>';
-    }
+    };
     this.ok = function(){
         document.getElementById('dontcheatbox').style.display = "none";
         document.getElementById('dontcheatoverlay').style.display = "none";
@@ -200,20 +200,20 @@ function customAlert() {
 
 // timer
 //credit code here
-const startTime = 1; //up timer to 10mins when ready
+const startTime = 10; //up timer to 10mins when ready
 let time = startTime * 60;
 
 const timer = document.getElementById('timer');
 
-setInterval(countdown, 100) // up interval to 1000 when ready
+setInterval(countdown, 1000); // up interval to 1000 when ready
 
 function countdown() {
     const minutes = Math.floor(time /60);
     let seconds = time % 60;
 
-    seconds = seconds < 1 ? '0'+ seconds : seconds; //1 or 10
+    seconds = seconds < 10 ? '0'+ seconds : seconds; //1 or 10
 
-    timer.innerHTML = `${minutes}:${seconds}`
+    timer.innerHTML = `${minutes}:${seconds}`;
     time--;
 
 
@@ -237,7 +237,7 @@ function countdown() {
 function handleSubmit(event) {
     event.preventDefault();
 
-    let form =document.getElementById('form')
+    let form =document.getElementById('form');
     let name = document.getElementById('name');
     let email = document.getElementById('email');
     let age = document.getElementById('age');
@@ -264,7 +264,7 @@ function handleSubmit(event) {
         }
         else {
             let html = `
-            <p>Thanks for subscribing! We'll email you shortly with info on how to activate your account!</p>`
+            <p>Thanks for subscribing! We'll email you shortly with info on how to activate your account!</p>`;
 
             let acknowledgementDiv = document.getElementById('acknowledgment');
             acknowledgementDiv.innerHTML = html;
