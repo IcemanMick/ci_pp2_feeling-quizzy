@@ -232,6 +232,8 @@ function countdown() {
 
 //newsletter sign up form
 
+
+//getting form values
 function handleSubmit(event) {
     event.preventDefault();
 
@@ -249,7 +251,11 @@ function handleSubmit(event) {
     console.log('Favourite category is:', faveCateg.value);
     console.log('Extra feedback is:', extraFeedback.value)
 
+    /*form.submit();*/
+
 }
 
 let form = document.getElementById('form');
 form.addEventListener('submit', handleSubmit);
+
+//form submission
