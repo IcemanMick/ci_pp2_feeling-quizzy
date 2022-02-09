@@ -204,7 +204,7 @@ footer{
     position: fixed;
     top: 0px;
     left: 0px;
-    background: #FFF;
+    background: whitesmoke;
     width: 100%;
     z-index: 10;
 }
@@ -212,32 +212,32 @@ footer{
 #dialogbox {
     display: none;
     position: fixed;
-    background: #000;
-    border-radius: 7px;
+    background: rgba(25, 50, 190, 0.75);
+    border-radius: 4px;
     width: 550px;
     z-index: 10;
 }
 
 #dialogbox > div{
-    background: #FFF;
+    background: black;
     margin: 8px;
 }
 
 #dialogbox > div > #dialogboxhead {
-    background: #666;
+    background: lightblue;
     font-size: 19px;
     padding: 10px;
-    color: #ccc;
+    color: rgba(25, 50, 190, 0.75);
 }
 
 #dialogbox > div > #dialogboxbody {
-    background: #333;
+    background: whitesmoke;
     padding: 20px;
-    color: #FFF;
+    color: rgba(25, 50, 190, 0.75);
 }
 
 #dialogbox > div > #dialogboxfoot {
-    background: #666;
+    background: lightblue;
     padding: 10px;
     text-align: right;
 }
@@ -532,6 +532,11 @@ textarea {
 
     .try-again {
         padding: 65px;
+    }
+
+    #dialogbox {
+        width: 260px;
+        margin-left: 145px ;
     }
 
 }
