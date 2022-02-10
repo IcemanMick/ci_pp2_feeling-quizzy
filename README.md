@@ -1,8 +1,8 @@
 # Feeling Quizzy
 
-insert Am I Responsive Image here
+![Am I Responsive Image](/assets/images/010_amir.PNG)
 
-insert link to live website here
+[Live Webpage](https://icemanmick.github.io/ci_pp2_feeling-quizzy/)
 
 ## Table of Contents
 
@@ -88,22 +88,21 @@ The objectives of the site owners are:
 1. As a first time user, I want to know what the purpose of the website is.
 2. As a first time user, I want to know what categories are covered in the quiz.
 3. As a first time user, I want to know what is the tone of this website and is this quiz going to be fun.
-4. As a first time user I want to know...
-5. As a first time user, I want to know is the website easy to use.
+4. As a first time user, I want to know is the website easy to use.
 
 ### Returning Users
-6. As a returning user, I want to know if the questions are in the same order.
-7. As a returning user, I want to know if what happens if I run out of time.
-8. As a returning user, I want to know if the site owners have a social media presence and how can I find it.
-9. As a returning user I want to know if the future categories are being updated.
-10. As a returning user, I want to know if I can receive updates without visiting the website.
+5. As a returning user, I want to know if the questions are in the same order.
+6. As a returning user, I want to know if what happens if I run out of time.
+7. As a returning user, I want to know if the site owners have a social media presence and how can I find it.
+8. As a returning user I want to know if the future categories are being updated.
+9. As a returning user, I want to know if I can receive updates without visiting the website.
 
 ### Site Owners
-11. As a site owner, I want to my website to be visually appealing and easy to navigate.
-12. As a site owner, I want users to know that the tone of this website is lighthearted and tongue-in-cheek.
-13. As a site owner, I want to update users with upcoming categories.
-14. As a site owner, I want to gather important feedback from users.
-15. As a site owner, I want to encourage users to sign up for the email newsletter.
+10. As a site owner, I want to my website to be visually appealing and easy to navigate.
+11. As a site owner, I want users to know that the tone of this website is lighthearted and tongue-in-cheek.
+12. As a site owner, I want to update users with upcoming categories.
+13. As a site owner, I want to gather important feedback from users.
+14. As a site owner, I want to encourage users to sign up for the email newsletter.
 
 ## Website Design
 
@@ -141,12 +140,61 @@ The symmetry of the four current categories on the home page and the four upcomi
 ### Wireframes
 Wireframes were created using the programme Balsamiq.
 
+<details><summary>Home</summary><img src="./assets/docs/wireframes/001_wf1.png"><img src="./assets/docs/wireframes/002_wf2.png"><img src="./assets/docs/wireframes/003_wf3.png"></details>
+<details><summary>Quiz</summary><img src="./assets/docs/wireframes/004_wf4.png"><img src="./assets/docs/wireframes/005_wf5.png"><img src="./assets/docs/wireframes/006_wf6.png"></details>
+<details><summary>Form</summary><img src="./assets/docs/wireframes/007_wf7.png"><img src="./assets/docs/wireframes/008_wf8.png"><img src="./assets/docs/wireframes/009_wf9.png"></details>
+<details><summary>Timeout</summary><img src="./assets/docs/wireframes/010_wf10.png"><img src="./assets/docs/wireframes/011_wf11.png"><img src="./assets/docs/wireframes/012_wf12.png"></details>
+
 ### Font
-Roboto from[Google Fonts](https://fonts.google.com/specimen/Roboto) is used for the website. Alternative fallback font used is Sans-Serif.
+Roboto from [Google Fonts](https://fonts.google.com/specimen/Roboto) is used for the website. Alternative fallback font used is Sans-Serif.
 
 ## Features
 
+### Simplistic Design
+-Due to the simple design and layout of the website, user's know immediately what purpose and objectives of the website are.
+-The website name is declared large and centered in the users view, and greets them with the immediate challenge of testing their knowledge.
+- User stories satisfied: Number 1, 2, 4, 10
+<img src="./docs/features/001_f1.PNG">
+
+### Categories Covered
+- A list of catgories covered in the quiz are present on the home page.
+- Pictures accompany the list and [Font Awesome](https://fontawesome.com/sessions/sign-in) icons were added to the list items.
+- User stories satisfied: Number 1, 2, 10
+<img src="./docs/features/002_f2.PNG">
+
+### Menu
+- The  colours used throughout the website indicate a lighthearted and fun tone.
+- The language used on the menus is familiar and colloquial, so as to not seem to formal or serious.
+- The 'I'm Ready To Test Myself!!"
+- The "Let Me Check Something First..." menu option brings the user to an external Google home page, the joke being that as you never know what will show up on a quiz, it's impossible to study for.
+-The "This Might Be More My Speed..." menu option brings the user to an online drawing and colouring app, jokingly suggesting they may not be intellectually capable for what in reality is a simple straightforward quiz.
+- User stories satisfied: Number 3, 11
+<img src="./docs/features/003_f3.PNG">
+
+### Site Navigation
+
+- With bright colours, large fonts, and centralised large buttons,the site is very intuitive and easy to navigate.
+- User stories satisfied: Number 4, 10
+<img src="./docs/features/004_f4.PNG">
+
+### Question Randomisation
+
+- Return users will note that the questions bank is randomised each time a new game is started. This adds some element of variety and resusablity before the quiz is updated with new categories/questions.
+- User stories satisfied: Number 5
+<img src="./docs/features/005_f5.PNG"> 
+
+### Timeout
+
+- Initially, the quiz consists of 20 questions from four categories with four possible answers to each question.
+- The game itself is limited to 10 minutes to maintain user attention and discourage cheating.
+- Once the timer reaches zero, and if all the questions are not yet answered, the user will be brought to the Timeout Page where they can return to the main menu.
+- User stories satisfied: Number 6
+<img src="./docs/features/006_f6.PNG">
+
 ### Social Media
+- Social media linke are present at the footer of each page for easy access. 
+- Icons were sourced from [Font Awesome](https://fontawesome.com/sessions/sign-in).
+- User stories satisfied: Number 7
 
 ### Future Ideas
 
