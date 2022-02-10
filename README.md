@@ -276,7 +276,9 @@ Each webpage was passed through the [W3C CSS Validator Website](https://jigsaw.w
 <details><summary>Timeout</summary><img src = "./docs/validation/008_css4.PNG"></details>
 
 ### JavaScript
-Each webpage was passed through [JSHint JavaScript Validator](https://jshint.com/).
+Each webpage was passed through [JSHint JavaScript Validator](https://jshint.com/). While 46 warnings were present on the report, these relate to the use of basic JS syntax such as "let", "const", and similar. Warning advises me to use Mozilla JS extensions. Unsure if this is because the local computer on which I run Gitpod through is running Windows 8 operating software. I would not be able to write JS code without using the syntax which I am being warned for.
+
+<details><summary>script.js</summary><img src ="./docs/validation/009_jshint.PNG"></details>
 
 ### Performance
 The Lighthouse feature in Google Chrome Developer Tools was used to test the performance of each webpage.
@@ -287,7 +289,7 @@ The Lighthouse feature in Google Chrome Developer Tools was used to test the per
 <details><summary>Timeout</summary><img src = "./docs/validation/017_lh4.PNG"></details>
 
 ### Accessibility>
-The [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used to test the accessibility of the website.
+The [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used to test the accessibility of the website. No errors were returned on any page.
 
 <details><summary>Home</summary><img src = "./docs/validation/010_wave1.PNG"></details>
 <details><summary>Quiz</summary><img src = "./docs/validation/011_wave2.PNG"></details>
