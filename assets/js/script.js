@@ -6,7 +6,7 @@ window.onload = console.log('The window has loaded!');
  * also for home button in quiz to leave quiz mid game
  * code credit to Tony Teaches Tech, full credit in README.md
  */
-function checker(event) {
+function checker() {
     var result = confirm('Are you sure?');
     if (result == false){
         event.preventDefault();
@@ -70,7 +70,23 @@ let questions = [
         choice3: '3',
         choice4: '4',
         answer: 3,
-    }
+    },
+    {
+        question: 'What year was the Battle of Hastings?',
+        choice1: '1275AD',
+        choice2: '945AD',
+        choice3: '1021AD',
+        choice4: '1066AD',
+        answer: 4,
+    },
+    {
+        question: 'Who was the Greek God of War?',
+        choice1: 'Ares',
+        choice2: 'Tyr',
+        choice3: 'Mars',
+        choice4: 'Athena',
+        answer: 1,
+    },
 ];
 
 const SCORE_POINTS = 1;//each correct answer is equal to one point
@@ -185,22 +201,23 @@ function customAlert() {
 
 /**
  * countdowntimer code
+ * code credit to Florin Pop
  */
-const startTime = 10; //up timer to 10mins when ready
-let time = startTime * 60;
+const startTime = 10; //starts countdown timer at 10
+let time = startTime * 60; //multiplies the timer 10 by 60 to give 600 seconds to countdown from i.e 10 mins
 
 const timer = document.getElementById('timer');
 
-setInterval(countdown, 1000); // up interval to 1000 when ready
+setInterval(countdown, 1000); //sets interval to 1000 to countdown in seconds
 
 function countdown() {
-    const minutes = Math.floor(time /60);
-    let seconds = time % 60;
+    const minutes = Math.floor(time /60);//minutes
+    let seconds = time % 60;//seconds
 
-    seconds = seconds < 10 ? '0'+ seconds : seconds; //1 or 10
+    seconds = seconds < 10 ? '0'+ seconds : seconds; 
 
-    timer.innerHTML = `${minutes}:${seconds}`;
-    time--;
+    timer.innerHTML = `${minutes}:${seconds}`;//populates the timer with the minutes and seconds
+    time--; //tells the time to deduct 1 second at a time
 
 
 
@@ -214,19 +231,16 @@ function countdown() {
 //random pub quiz team name generator on timeout page
 
 
-
-//results - code to be added
-
-
-
-//newsletter sign up form
-
+/** 
+ * newsletter sign up form and feedback
+ * code structure from code institute lessons but custom code and content
+*/
 
 //getting form values, submission, and validation
 function handleSubmit(event) {
     event.preventDefault();
 
-    let form =document.getElementById('form');
+    let form = document.getElementById('form');
     let name = document.getElementById('name');
     let email = document.getElementById('email');
     let age = document.getElementById('age');
@@ -234,16 +248,19 @@ function handleSubmit(event) {
     let faveCateg = document.getElementById('fave-categ');
     let extraFeedback = document.getElementById('extra-feedback');
 
-    console.log('Player full name is:', name.value);
-    console.log('Player email address is:', email.value);
-    console.log('Player Age is:', age.value);
-    console.log('Player score is:', formScore.value);
-    console.log('Favourite category is:', faveCateg.value);
-    console.log('Extra feedback is:', extraFeedback.value);
+    console.log('Player full name is:', name.value);//logs the name the player has given to the console upon submission
+    console.log('Player email address is:', email.value);//logs the email address the player has given to the console upon submission 
+    console.log('Player Age is:', age.value);//logs the age the player has given to the console upon submission
+    console.log('Player score is:', formScore.value);//logs the score the player has got in the quiz to the console upon submission 
+    console.log('Favourite category is:', faveCateg.value);//logs the players favourite category played to the console upon submission
+    console.log('Extra feedback is:', extraFeedback.value);//logs any additional player comments to the console upon submission
     
-    let email1 = form.elements.email.value;
-    let email2 = form.elements['conf-email'].value;
-
+    let email1 = form.elements.email.value;//declares value of email address entered by player
+    let email2 = form.elements['conf-email'].value;//declares value of email address confirmed by player
+    
+    /**
+     * if both emails provided do not match form is not validated and error message appears below form
+     */
     if (email1 !== email2){
         let errorMsg = document.getElementById('error-msg');
         errorMsg.innerHTML = `<p>Ugh-oh, your emails do not match! Please correct and resubmit.</p>`;
@@ -251,6 +268,7 @@ function handleSubmit(event) {
 
         console.log('Email not validated!');
         }
+        //if email is validated acknowledgment message appears below form
         else {
             let html = `
             <p>Thanks for subscribing! We'll email you shortly with info on how to activate your account!</p>`;

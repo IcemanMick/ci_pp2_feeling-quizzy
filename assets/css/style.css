@@ -1,6 +1,8 @@
 /*google font used for entire website*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/*global code*/
+
 /* code for initial box model control*/
 * {
     margin: 0;
@@ -8,13 +10,13 @@
     border: 0;
 
 }
-
+/*custom code*/
 body {
     font-family: Roboto, sans-serif;
     background: rgba(25, 50, 190, 0.75);
     color: whitesmoke;
 }
-
+/*custom code*/
 h1 {
     text-align: center;
     font-size: 5rem;
@@ -24,7 +26,7 @@ h1 {
     padding: 20px;
     
 }
-
+/*custom code*/
 h2 {
     text-align: center;
     font-size: 2.2rem;
@@ -33,54 +35,56 @@ h2 {
     padding: 5px;
     font-style: italic;
 }
-
+/*custom code*/
 ul {
     list-style-type: none;   
 }
 
 /* categories*/
 
+/*custom code*/
 .category-pics {
   text-align: center;
 
 }
-
+/*custom code*/
 img {
     padding: 0 10px 0 10px;
 }
-
+/*custom code*/
 .fas {
     font-size: 1.8rem;
     font-weight: bold;
 }
-
+/*custom code*/
 .categories {
     text-align: center;
     margin: 15px;
     padding: 15px;
 }
-
+/*custom code*/
 .categories > li {
     margin: 1%;
     display: inline;
 }
 
-
 /* footer */
+
+/*custom code*/
 footer{
     background: whitesmoke;
     height: 110px;
     margin-bottom: 0;  
 }
-
+/* credit code to coders coffeehouse by  code institute*/
 .social-networks {
     text-align: center;
 }
-
+/* credit code to coders coffeehouse by  code institute*/
 .social-networks > li {
     display: inline;
 }
-
+/* credit code to coders coffeehouse by  code institute*/
 .social-networks i {
     font-size: 160%;
     margin: 1%;
@@ -90,7 +94,7 @@ footer{
 
 /* home menu*/
 
-/*credit Brian Design*/
+/*credit code to Brian Design*/
 .home-menu {
     width: 50vw;
     height: 50vh;
@@ -101,29 +105,29 @@ footer{
     margin: 0 auto 10px;
     padding: 1.5rem;
 }
-
+/*credit code to Brian Design*/
 .flex-column {
     display: flex;
     flex-direction: column;
 }
-
+/*credit code to Brian Design*/
 .flex-center {
     justify-content: center;
     align-items: center;
 }
-
+/*credit code to Brian Design*/
 .justify-center {
     justify-content: center;
 }
-
+/*credit code to Brian Design*/
 .text-center {
     text-align: center;
 }
-
+/*credit code to Brian Design*/
 .hidden {
     display: none;
 }
-
+/*custom code*/
 .btn {
     font-size: 2rem;
     padding: 1rem 0;
@@ -135,25 +139,23 @@ footer{
     background: lightblue;
     border: 4px solid whitesmoke;
     border-radius: 4px;
-    
-
 }
-/* custom code for traffic lights button hover feature*/
+/*custom code for traffic lights button hover feature*/
 .btn-green:hover {
     background-color: limegreen;
     color: whitesmoke;
 }
-/* custom code for traffic lights button hover feature*/
+/*custom code for traffic lights button hover feature*/
 .btn-orange:hover {
     background-color: gold;
     color: whitesmoke;
 }
-/* custom code for traffic lights button hover feature*/
+/*custom code for traffic lights button hover feature*/
 .btn-red:hover {
     background-color: red;
     color: whitesmoke;
 }
-
+/*custom code*/
 .btn-purple:hover {
     background: rgba(208, 71, 107, 0.95);
     color: whitesmoke;
@@ -161,8 +163,7 @@ footer{
 
 /* quiz.html css below*/
 
-/*credit Brian Design*/
-
+/*credit code to Brian Design*/
 .choice-container {
    background: lightblue;
    display: flex;
@@ -175,30 +176,32 @@ footer{
    border-radius: 4px;
 
 }
-
+/*credit code to Brian Design*/
 .choice-text {
     padding: 2rem;
     width: 100%;
     color: rgba(25, 50, 190, 0.75);
 }
-
+/*credit code to Brian Design*/
 .choice-container:hover {
     background: gold;
 }
-
+/*custom code*/
 .choice-text:hover{
     color: whitesmoke;
 }
-
+/*credit code to Brian Design*/
 .correct {
     background: limegreen;
 }
-
+/*credit code to Brian Design*/
 .incorrect {
     background: red;
 }
 
 /* don't cheat pop up*/
+
+/*credit code to Adam Khoury*/
 #dontcheatoverlay {
     display: none;
     opacity: .8;
@@ -209,7 +212,7 @@ footer{
     width: 100%;
     z-index: 10;
 }
-
+/*credit code to Adam Khoury*/
 #dontcheatbox {
     display: none;
     position: fixed;
@@ -218,25 +221,25 @@ footer{
     width: 550px;
     z-index: 10;
 }
-
+/*credit code to Adam Khoury*/
 #dontcheatbox > div{
     background: black;
     margin: 8px;
 }
-
+/*credit code to Adam Khoury*/
 #dontcheatbox > div > #dontcheatboxhead {
     background: lightblue;
     font-size: 19px;
     padding: 10px;
     color: rgba(25, 50, 190, 0.75);
 }
-
+/*credit code to Adam Khoury*/
 #dontcheatbox > div > #dontcheatboxbody {
     background: whitesmoke;
     padding: 20px;
     color: rgba(25, 50, 190, 0.75);
 }
-
+/*credit code to Adam Khoury*/
 #dontcheatbox > div > #dontcheatboxfoot {
     background: lightblue;
     padding: 10px;
@@ -281,17 +284,17 @@ footer{
     border: 4px solid whitesmoke;
     padding: 20px;
 }
-
+/*custom code*/
 .circle-btn:hover {
     background-color: red;
 }
-
+/*custom code*/
 .btn-font {
     font-weight: 700;
     font-size: 2.2rem;
     color: whitesmoke;
 }
-
+/*custom code*/
 #btn-bmh {
     background-color: lightblue;
     font-size: 3rem;
@@ -304,7 +307,7 @@ footer{
     display: block;
     text-decoration: none;
 }
-
+/*custom code*/
 #btn-bmh:hover {
     background: limegreen;
     color: whitesmoke;
@@ -312,6 +315,7 @@ footer{
 
 /* countdown timer*/
 
+/*custom code*/
 #timer {
     background-color: lightblue;
     font-size: 3rem;
@@ -326,31 +330,13 @@ footer{
 
 /*form.html*/
 
-/*results at top of page*/
-
-.results {
-    display: flex;
-    justify-content: center;
-}
-
-.results-area {
-    margin: 10px auto;
-    width: 30%;
-    font-size: 1.8rem;
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    border: 4px solid whitesmoke;
-    padding: 20px;
-    background: rgba(208, 71, 107, 0.95);
-}
-
+/*custom code*/
 .heading2 {
     display: flex;
     justify-content: center;
 }
 
-
+/*custom code*/
 /* upcoming categories image*/
 .upcoming-imgs {
     text-align: center;
@@ -358,7 +344,7 @@ footer{
     padding: 20px;
 }
 
-
+/*custom code*/
 .feedback-container {
     margin: auto;
     width: 50%;
@@ -368,23 +354,24 @@ footer{
 
 /*newsletter sign up form*/
 
+/*custom code*/
 h3 {
     font-size: 2.2rem;
     text-align: center;
     font-style: italic;
     color: whitesmoke;
 }
-
+/*custom code*/
 label {
     display: block;
 }
-
+/*custom code*/
 .feedback-form {
     color: lightblue;
     margin: 10px 10px 50px 10px;
     padding: 20px;
 }
-
+/*custom code*/
 .text-input {
     background: whitesmoke;
     color: black;
@@ -396,7 +383,7 @@ label {
     font-weight: bold;
     font-size: 1.2rem;
 }
-
+/*custom code*/
 .number-input {
     background: whitesmoke;
     color: black;
@@ -407,7 +394,7 @@ label {
     font-weight: bold;
     font-size: 1.2rem;
 }
-
+/*custom code*/
 select {
     border: 2px solid black;
     background: whitesmoke;
@@ -417,11 +404,11 @@ select {
     font-size: 1.2rem;
     font-weight: bold;
 }
-
+/*custom code*/
 textarea {
     display: block;
 }
-
+/*custom code*/
 .textarea-input {
     background: whitesmoke;
     color: black;
@@ -431,7 +418,7 @@ textarea {
     font-size: 1.2rem;
     width: 80%;
 }
-
+/*custom code*/
 .submit-btn {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -446,18 +433,12 @@ textarea {
     display: flex;
     justify-content: center;
 }
-
+/*custom code*/
 .submit-btn:hover {
     background: lime;
     color: whitesmoke;
 }
-
-#form-circle {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
+/*custom code*/
 #acknowledgment {
     background: limegreen;
     display: none;
@@ -471,7 +452,7 @@ textarea {
     font-size: 1.5rem;
 
 }
-
+/*custom code*/
 #error-msg {
     background: red;
     display: none;
@@ -486,13 +467,14 @@ textarea {
 
 /* timeout "oops" page */
 
+/*custom code*/
 #oops-image {
     margin: auto;
     width: 50%;
     display: flex;
     justify-content: center;
 }
-
+/*custom code*/
 .try-again {
     margin: 50px
 }
@@ -501,30 +483,27 @@ textarea {
 /*media queries for tablets 768px x 882px and mobile devices 480px x 882px*/
 
 /* for ipads and tablets up to 768px*/
+
 @media screen and (max-width: 768px) {
+    /*custom code*/
     img {
         padding-bottom: 15px;
     }
-
+    /*custom code*/
     h1 {
         font-size: 3rem;
         margin: 30px;
         padding: 10px;
     }
-
+    /*custom code*/ 
     .choice-container {
         font-size: 2.2rem;
     }
-
+    /*custom code*/
     h2 {
         font-size: 1.8rem;
     }
-
-    .results-area {
-        display: flex;
-        justify-content: center;
-    }
-
+    /*custom code*/
     .heading2 {
         margin-top: 20px;
         padding: 10px;   
@@ -533,68 +512,64 @@ textarea {
 }
 
 /* for mobile devices up to 480px*/
-@media screen and (max-width: 480px) {
 
+@media screen and (max-width: 480px) {
+    /*custom code*/
     .heading2 {
         padding: 0px 20px 0px 20px;
     }
-
+    /*custom code*/
     .categories {
         display: grid;
     }
-
+    /*custom code*/
     .btn {
         width: 20rem;
         padding-bottom: 10px;
     }
-
+    /*custom code*/
     .choice-container {
         font-size: 1.8rem;
     }
-
+    /*custom code*/
     .choice-text {
         margin-right: 40px ;
     }
-
+    /*custom code*/
     .circle-btn {
       height: 150px;
       width: 150px;
     }
-
+    /*custom code*/
     .btn-font {
       font-size: 1.5rem;
     }
-
+    /*custom code*/
     #bmh-btn {
       margin-left: 20px;
     }
-
-    .results-area {
-        display: inline;
-        margin-left: 96px;
-    }
-
+    /*custom code*/
     .submit-btn {
         width: 80%;
     }
-
+    /*custom code*/
     .text-input, .textarea-input {
         width: 100%
     }
-
+    /*custom code*/
     .try-again {
         padding: 65px;
     }
-
+    /*custom code*/
     #dontcheatbox {
         width: 260px;
         margin-left: 145px ;
     }
-
+    /*custom code*/
     #timer{
         padding-left: 0px;
     }
-
+    /*custom code*/
     #btn-bmh {
         padding-right: 0px;
     }
