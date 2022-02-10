@@ -130,14 +130,14 @@ The website consists of four pages:
 ### Colour Choices
 The main colours used in the website are a blue/navy colour called rgba (25, 50, 190, 0.75), and a standard Light Blue with Whitesmoke borders on the buttons. These colours are in honour of the Dublin GAA jersey colours, as I'm from Dublin in Ireland.
 
-<details><summary>rgba (25, 50, 190, 0.75)</summary><img src="./assets/docs/features/001_rgba_color1.png"></details>
-<details><summary>Dublin Jersey</summary><img src="./assets/docs/features/002_dublin_jersey.png"></details>
+<details><summary>rgba (25, 50, 190, 0.75)</summary><img src="./docs/features/001_rgba_color1.png"></details>
+<details><summary>Dublin Jersey</summary><img src="./docs/features/002_dublin_jersey.png"></details>
 
 The traffic lights colours of Red, Gold, and Limegreen were used for hovering over buttons and button clicks.
 
 A second light purple/pink colour was used to provide some additional variety and distinction, without being visually jarring. This colour is called rgba (208, 71, 107,0.95).
 
-<details><summary>rgba (208, 71, 107, 0.95)</summary><img src="./assets/docs/features/003_rgba_color2.png"></details>
+<details><summary>rgba (208, 71, 107, 0.95)</summary><img src="./docs/features/003_rgba_color2.png"></details>
 
 Whitesmoke background was used again on the footer to alert the user to the bottom of the page and its social media links.
 
