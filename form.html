@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Feeling Quizzy!!</title>
 </head>
+<!--custom code for h1 and h2 divs-->
 <body>
     <div>
     <h1>Thanks for playing "Feeling Quizzy!!"</h1>
@@ -20,6 +21,7 @@
     <h2>Our monthly newsletter let's you know when new categories, features, and questions are added!!</h2>
     </div>
     <div>
+         <!--custom code for the category images to show which future categories will be covered in the quiz -->
         <h2>Upcoming categories include:</h2>
         <div class="upcoming-imgs">
             <img src="assets/images/005_vr_tec.png" alt="picture of man wearing vr headset">
@@ -27,6 +29,7 @@
             <img src="assets/images/007_concert_mus.png" alt="picture of a concert at night time">
             <img src="assets/images/008_vote_badges_pol.png" alt="picture of badges that say generic vote">
         </div>
+        <!--categories code structure credit to love running project with code institue. content is custom-->
         <div>
             <ul class="categories">
                 <li>
@@ -44,18 +47,24 @@
             </ul>
             </div>
     </div>
+    <!--coders coffee house by code institute used as reference for code for form. content is custom-->
     <div class="feedback-container">
         <h2>Sign up for our newsletter below!</h2>
+        <!--onsubmit tag used to activate the javascript data capture and validation upon submission-->
             <form id ="form" class="feedback-form" onsubmit="handleSubmit(event)" method="POST" action="#">
+                <!--name required or form won't submit-->
                 <label for="name">Name:</label>
                 <input id="name" class="text-input" type="text" name="name" required>
                 <br>
+                <!--email address required or form won't submit-->
                 <label for="email">Email Address:</label>
                 <input id="email" class="text-input" type="text" name="email" required>
                 <br>
+                <!--email address confirmation required andmust match original email to be validation in javascript-->
                 <label for="conf-email">Confirm Email Address:</label>
                 <input id="conf-email" class="text-input" type="text" name="conf-email" required>
                 <br>
+                <!--capturing of user age is important for future site improvement-->
                 <label for="age">Age:</label>
                 <select name="age" id="age">
                     <option value="under-20">Under 20</option>
@@ -66,6 +75,7 @@
                     <option value="60+">60+</option>
                 </select>
                 <br>
+                <!--capturing of user score is important for future site improvement-->
                 <label for="form-score">My Score:</label>
                 <select name="formscore" id="form-score">
                     <option value="0-5">0-5</option>
@@ -74,6 +84,7 @@
                     <option value="18-20">18-20</option>
                 </select>
                 <br>
+                <!--feedback on favourite quiz categories is important for future site improvement-->
                 <label for="fave-categ">Favourite Category</label>
                 <select name="category" id="fave-categ">
                     <option value="geography">Geography</option>
@@ -82,6 +93,7 @@
                     <option value="sport">Sport</option>
                 </select>
                 <br>
+                <!--any additional comments could be useful for future site improvement-->
                 <label for="extra-feedback">Additional Feedback/Comments:</label>
                 <br>
                 <textarea name="extra-feedback" id="extra-feedback" class="textarea-input" cols="40" rows="5"></textarea>
@@ -89,14 +101,15 @@
                 <input class="submit-btn" type="submit" value="Sign Me Up!!">
             </form>
     </div>
-    <!-- hidden form submission acknowledgment box-->
-    <div id = acknowledgment>
+    <!-- hidden form submission acknowledgment box pops up when form validation is complete-->
+    <div id = acknowledgment><!--code structure from code instititue lessons,content is custom-->
     </div>
-    <!--hidden error message if emails don't validate-->
-    <div id="error-msg">
+    <!--hidden error message pops up if emails addresses don't match and can't be validated-->
+    <div id="error-msg"><!--code structure from code instititue lessons,content is custom-->
     </div>
-    <!--home button-->
+    <!--home button to bring user back to home page. credit to Brian Design for code structure, content is custom-->
     <div class="try-again flex-center flex-column">
+        <!--brings user back to home page-->
         <a href="index.html" class="btn btn-green">Bring Me Home!
         </a>
     </div>
@@ -117,6 +130,7 @@
             </li>
         </ul>
     </footer>
+        <!--code linking javascript-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-//CI
+//code credit to code institue lessons
 window.onload = console.log('The window has loaded!');
 
 /*basic confirmation check for home menu*/
