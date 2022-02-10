@@ -2,8 +2,8 @@
 window.onload = console.log('The window has loaded!');
 
 /*basic confirmation check for home menu*/
-function checker() {
-    var result = confirm('Are you ready to start the quiz?');
+function checker(event) {
+    var result = confirm('Are you sure?');
     if (result == false){
         event.preventDefault();
     }
