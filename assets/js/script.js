@@ -86,7 +86,7 @@ getNewQuestion = () => {
     question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
-        const number = choice.dataset['number'];
+        const number = choice.dataset.number;
         choice.innerText = currentQuestion['choice'+ number];
     });
 
@@ -101,7 +101,7 @@ choices.forEach(choice => {
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+        const selectedAnswer = selectedChoice.dataset.number;
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
@@ -215,7 +215,7 @@ function handleSubmit(event) {
     console.log('Favourite category is:', faveCateg.value);
     console.log('Extra feedback is:', extraFeedback.value);
     
-    let email1 = form.elements['email'].value;
+    let email1 = form.elements.email.value;
     let email2 = form.elements['conf-email'].value;
 
     if (email1 !== email2){
