@@ -111,6 +111,46 @@ let questions = [
         choice4: '8',
         answer: 2,
     },
+    {
+        question: 'On the periodic table, what is the symbol for gold?',
+        choice1: 'Au',
+        choice2: 'Fe',
+        choice3: 'Ag',
+        choice4: 'Se',
+        answer: 1,
+    },
+    {
+        question: 'What year did Marie Curie win the Nobel Prize in Chemistry?',
+        choice1: '1903',
+        choice2: '1911',
+        choice3: '1913',
+        choice4: '1910',
+        answer: 2,
+    },
+    {
+        question: 'At what temperature are Celsius and Fahrenheit equal?',
+        choice1: '40',
+        choice2: '5',
+        choice3: '-40',
+        choice4: '-5',
+        answer: 3,
+    },
+    {
+        question: 'How many bones are in the adult human body?',
+        choice1: '205',
+        choice2: '206',
+        choice3: '210',
+        choice4: '211',
+        answer: 2,
+    },
+    {
+        question: 'What is Elon Musk\'s spce company called?',
+        choice1: 'Blue Origin',
+        choice2: 'NASA',
+        choice3: 'Virgin Galactic',
+        choice4: 'SpaceX',
+        answer: 4,
+    },
 ];
 
 const SCORE_POINTS = 1;//each correct answer is equal to one point
