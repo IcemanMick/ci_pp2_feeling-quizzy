@@ -340,6 +340,16 @@ Please find a live link to the website above the Table of Contents title on thie
 
 ### Content
 
+#### Code Credit
+- Quiz Code where credited in files to Youtube of [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&ab_channel=BrianDesign) and his [Github](https://github.com/briancodex/quiz-app-js)
+- Timer Code where credited in filed to Youtube of [Florin Pop](https://www.youtube.com/watch?v=x7WJEmxNlEs)
+- Alert Box Code where credited in files to Youtube of [Adam Khoury](https://www.youtube.com/watch?v=-RLE2Q7OzME&ab_channel=AdamKhoury)
+- Basic Confirmation Boxes where credited in files from Youtube of [Tony Teaches Tech](https://www.youtube.com/watch?v=bNtyTGBtbK4&ab_channel=TonyTeachesTech
+- [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) and [Coders Coffeehouse](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2021_T1/courseware/b4e5b2c91d0a4ee3bb24fac71811b23f/fb53b5df2fbd47f183297ff8c93040c1/) where credited in the files by the [Code Institute](https://codeinstitute.net/ie/)
+- Arrow Functions by [Web Dev Simplied](https://www.youtube.com/watch?v=h33Srr5J9nY&ab_channel=WebDevSimplified)
+- Common Mediq Queries Sizes of 768px and 480px by [freeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
+- What is e in JavaScript from [StackOverFlow](https://stackoverflow.com/questions/10323392/in-javascript-jquery-what-does-e-mean)
+
 ### Media
 
 All photos from [Pexels](https://www.pexels.com/)
@@ -352,5 +362,6 @@ All photos from [Pexels](https://www.pexels.com/)
 - Concert Photo by [Wendy Wei](https://www.pexels.com/@wendywei)
 - Vote Photo by [cottonbro](https://www.pexels.com/@cottonbro)
 - Confused Man Photo by [Sammie Sander](https://www.pexels.com/@sammie-sander-165512421)
+- Dublin Jersy from [Elvery's Sport](http://blog.elverys.ie/the-2016-dublin-jersey-an-evolution-in-style/)
 
 ## Final Thoughts
