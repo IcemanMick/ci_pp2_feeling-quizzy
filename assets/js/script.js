@@ -87,6 +87,30 @@ let questions = [
         choice4: 'Athena',
         answer: 1,
     },
+    {
+        question: 'What year did World War 2 end?',
+        choice1: '1944',
+        choice2: '1939',
+        choice3: '1945',
+        choice4: '1938',
+        answer: 3,
+    },
+    {
+        question: 'Who was the 1st President of USA?',
+        choice1: 'Thomas Jefferson',
+        choice2: 'John Adams',
+        choice3: 'Andrew Jackson',
+        choice4: 'George Washington',
+        answer: 4,
+    },
+    {
+        question: 'How many wives had Henry VIII?',
+        choice1: '4',
+        choice2: '6',
+        choice3: '7',
+        choice4: '8',
+        answer: 2,
+    },
 ];
 
 const SCORE_POINTS = 1;//each correct answer is equal to one point
