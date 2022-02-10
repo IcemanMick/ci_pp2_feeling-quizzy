@@ -282,7 +282,7 @@ footer{
 }
 
 .circle-btn:hover {
-    background-color: gold;
+    background-color: red;
 }
 
 .btn-font {
@@ -304,6 +304,10 @@ footer{
     text-decoration: none;
 }
 
+#btn-bmh:hover {
+    background: limegreen;
+    color: whitesmoke;
+}
 
 /* countdown timer*/
 
