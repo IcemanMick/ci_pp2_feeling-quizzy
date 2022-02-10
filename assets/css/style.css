@@ -552,16 +552,16 @@ textarea {
         margin-right: 40px ;
     }
 
-  .circle-btn {
+    .circle-btn {
       height: 150px;
       width: 150px;
-  }
+    }
 
-  .btn-font {
+    .btn-font {
       font-size: 1.5rem;
-  }
+    }
 
-  #bmh-btn {
+    #bmh-btn {
       margin-left: 20px;
     }
 
@@ -587,5 +587,12 @@ textarea {
         margin-left: 145px ;
     }
 
+    #timer{
+        padding-left: 0px;
+    }
+
+    #btn-bmh {
+        padding-right: 0px;
+    }
 }
 
