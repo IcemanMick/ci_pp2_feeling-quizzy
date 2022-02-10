@@ -13,9 +13,12 @@
     <title>Feeling Quizzy!!</title>
 </head>
 <body>
+    <!--credit to Brian Design for structure and layout of quiz code questions and answers-->
   <div class="container">
       <div id="game" class="justify-center flex column">
+          <!--question placeholder-->
           <h1 id="question">Insert Question Here?</h1> 
+          <!--answer placeholders-->
           <div class="choice-container">
               <p class="choice-text" data-number="1">Choice 1</p>
           </div>
@@ -30,10 +33,11 @@
         </div>
       </div>
   </div>
+  <!--custom code for score area where score is kept track-->
   <div><p class="score-area">
       Score: <span id="score" > 0</span>/20</p>
     </div>
-    <!--pop up box-->
+    <!--hidden alert box for don't cheat button. credit to Adam Khoury for code. Full credit given  in README.md content is custom-->
     <div id="dontcheatoverlay"></div>
     <div id="dontcheatbox">
         <div>
@@ -44,13 +48,16 @@
     </div>
     <!--bottom buttons and timer-->
   <div class="bottom-features">
+      <!--credit to Florin Pop for timer code. full credit given in README.md-->
       <span id="timer">10:00
       </span>
+      <!--custom code for don't cheat button-->
       <span>
           <button class="circle-btn cheat btn-font" onclick="alert.render ('Looks like somebody is trying to cheat!! The clock is still ticking though...')">
             Don't<br>Cheat!
           </button>
       </span>
+      <!--custom code for home button link-->
       <span>
         <a href="index.html" onclick="checker()" id="btn-bmh">Home!
           </a>
@@ -73,6 +80,7 @@
             </li>
         </ul>
     </footer>
+    <!--code linking javascript-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
