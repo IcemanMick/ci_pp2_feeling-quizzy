@@ -176,6 +176,9 @@ Roboto from [Google Fonts](https://fonts.google.com/specimen/Roboto) is used for
 - With bright colours, large fonts, and centralised large buttons,the site is very intuitive and easy to navigate.
 - User stories satisfied: Number 4, 10
 <img src="./docs/features/004_f4.PNG">
+<img src="./docs/features/010a_f10.PNG">
+<img src="./docs/features/010b_f10.PNG">
+
 
 ### Question Randomisation
 
@@ -195,6 +198,47 @@ Roboto from [Google Fonts](https://fonts.google.com/specimen/Roboto) is used for
 - Social media linke are present at the footer of each page for easy access. 
 - Icons were sourced from [Font Awesome](https://fontawesome.com/sessions/sign-in).
 - User stories satisfied: Number 7
+
+<img src="./docs/features/007_f7.PNG">
+
+### Upcoming Categories and Newsletter
+-The Upcoming Categories section informs users of future categories that are to be added to the website.
+-The plan would be to initially update on a monthly basis, subject to feedback and engagement.
+- Signing up for the monthly newsletter is encouraged.
+- The newsletter via email enables the site owner to update users without them having to visit the website and could potentially be used for commerical purposes, such as advertising and/or merchandise.
+- User stories satisfied: Number 2, 8, 9, 12, 13, 14
+<img src="./docs/features/008a_f8.PNG">
+<img src="./docs/features/008b_f8.PNG">
+<img src="./docs/features/009_f9.PNG">
+<img src="./docs/features/014_f14.PNG">
+
+### Feedback
+- The newsletter also allows the user to provide feedback/comments to the site owner, which could be invaluable in terms of improving the sites offering and/or interactivity/functionality.
+- User stories satisfied: Number 13, 14
+<img src="./docs/features/013_f13.PNG">
+
+### "Don't Cheat!" Button
+- As a pyschological joke, I've included a "Don't Cheat" button on the main quiz page.
+- Clicking the button does not pause the timer or offer any advantage but calls out the user for trying to cheat with a pop up. Just a small feature to make the user smile.
+-User stories satisfied: Number 3, 11
+<img src="./docs/features/011_f11.PNG">
+
+### Timer and Score Counter
+- Both features allow the user to track their progress.
+- User stories satisfied: Number 6
+<img src="./docs/features/016_f16.PNG">
+<img src="./docs/features/015_f15.PNG">
+
+### Form Validation
+- When filing out and submitting the feedback form, if the email address is correctly validated, a green pop up acknowledgment appears under the form.
+-Similarly, if the email address is not correctly validated, a warning message appears.
+User stories satisfied: Number 13, 14
+<img src="./docs/features/017_f17.PNG">
+<img src="./docs/features/018_f18.PNG">
+
+
+
+
 
 ### Future Ideas
 
