@@ -1,7 +1,11 @@
 //code credit to code institue lessons
 window.onload = console.log('The window has loaded!');
 
-/*basic confirmation check for home menu*/
+/**
+ * basic confirmation check for home menu to start game
+ * also for home button in quiz to leave quiz mid game
+ * code credit to Tony Teaches Tech, full credit in README.md
+ */
 function checker(event) {
     var result = confirm('Are you sure?');
     if (result == false){
@@ -150,37 +154,38 @@ incrementScore = num=> {
 
 startGame(); //required to start the quiz and populate the question and answers with content other than placeholders
 
+/**Pop up window for Don't Cheat Alert
+ * code credit to Adam Khoury for lines 161 to 182, full credit given in README.md
+ */
 
-// pop up window for Don't Cheat button
-//credit
-
+//calls the below features when the alert box is first rendered on the screen
 function customAlert() {
     this.render = function (dialog) {
         var winW = window.innerWidth;
         var winH = window.innerHeight;
         var dialogoverlay = document.getElementById('dontcheatoverlay');
         var dialogbox = document.getElementById('dontcheatbox');
-        dialogoverlay.style.display = "block";
+        dialogoverlay.style.display = "block";//sets opaque background css to activate behind alert box
         dialogoverlay.style.height = winH + "px";
-        dialogbox.style.left = (winW/2) - (550 * '.5') + "px"; //decimal point before 5
-        dialogbox.style.top = "100px";
-        dialogbox.style.display = "block";
-        document.getElementById('dontcheatboxhead').innerHTML = "Ugh-oh!";
-        document.getElementById('dontcheatboxbody').innerHTML = dialog;
-        document.getElementById('dontcheatboxfoot').innerHTML = '<button onclick = "alert.ok()">OK</button>';
+        dialogbox.style.left = (winW/2) - (550 * '.5') + "px";
+        dialogbox.style.top = "100px";//sets alert box distance from top of window
+        dialogbox.style.display = "block";//sets alert box css to display
+        document.getElementById('dontcheatboxhead').innerHTML = "Ugh-oh!";//sets alert box header message
+        document.getElementById('dontcheatboxbody').innerHTML = dialog;//sets alert box message to the message declared in the html onclick alert render
+        document.getElementById('dontcheatboxfoot').innerHTML = '<button onclick = "alert.ok()">OK</button>'; //sets alert box OK button
     };
+    //calls the below features when the ok button is clicked on the alert box
     this.ok = function(){
-        document.getElementById('dontcheatbox').style.display = "none";
-        document.getElementById('dontcheatoverlay').style.display = "none";
+        document.getElementById('dontcheatbox').style.display = "none";//makes alert box disappear
+        document.getElementById('dontcheatoverlay').style.display = "none";//makes the opaque baclground behind alert box disappear
 
     };
 
-}var alert = new customAlert();
+}var alert = new customAlert();//makes the alert pop up in the browser when the Don't Cheat buttonis clicked
 
-
-
-// timer
-//credit code here
+/**
+ * countdowntimer code
+ */
 const startTime = 10; //up timer to 10mins when ready
 let time = startTime * 60;
 
