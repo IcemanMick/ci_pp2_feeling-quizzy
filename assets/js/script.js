@@ -194,7 +194,7 @@ let questions = [
 ];
 
 const SCORE_POINTS = 1;//each correct answer is equal to one point
-const MAX_QUESTIONS = 5;//the maximum number of questions to be asked  in the game
+const MAX_QUESTIONS = 20;//the maximum number of questions to be asked  in the game
 
 startGame = () => {
     questionCounter = 0;//start game at question 0 in array (although random every time)
