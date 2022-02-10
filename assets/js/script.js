@@ -9,7 +9,11 @@ function checker(event) {
     }
 }
 
-// quiz. credit to BD
+/**
+ * credit to Brian Design for the quiz app code
+ * fully credited in README.md file
+ * credit for lines 18 to 136
+ */
 
 const question = document.getElementById('question');
 const scoreText = document.getElementById('score');
@@ -18,9 +22,10 @@ const choices = Array.from(document.querySelectorAll('.choice-text'));
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
-let questionCounter = 0 ;
-let availableQuestions = [];
+let questionCounter = 0;
+let availableQuestions = [];//available questions are sourced from the below array
 
+//question and answer code structure credit to Brian Design. custom questions and answers by me
 let questions = [
     {
         question: 'The area where a river meets the sea or ocean is called?',
@@ -64,22 +69,27 @@ let questions = [
     }
 ];
 
-const SCORE_POINTS = 1;
-const MAX_QUESTIONS = 5;
+const SCORE_POINTS = 1;//each correct answer is equal to one point
+const MAX_QUESTIONS = 5;//the maximum number of questions to be asked  in the game
 
 startGame = () => {
-    questionCounter = 0;
-    score = 0;
-    availableQuestions = [...questions];
-    getNewQuestion();
+    questionCounter = 0;//start game at question 0 in array (although random every time)
+    score = 0;//start game with player score at zero
+    availableQuestions = [...questions];//select available questions from the questions array
+    getNewQuestion(); //required to populate first question and answers
 };
 
+/**
+ * function to keep getting new questions until amount of questions left in array are at zero
+ * or if question counter has reached max questions value.
+ * Once this occurs, user automatically brought to form.html webpage
+ */
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         return window.location.assign('form.html');
     }
     
-    questionCounter++;
+    //questionCounter++;
 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
@@ -106,7 +116,7 @@ choices.forEach(choice => {
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToApply ==='correct') {
-            incrementScore(SCORE_POINTS);
+            incrementScore(SCORE_POINTS);//required to keep score if answer correct
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
@@ -124,10 +134,7 @@ incrementScore = num=> {
     scoreText.innerText = score;
 };
 
-startGame();
-
-
-//confirm to exit game. need to add code
+startGame(); //required to start the quiz and populate the question and answers with content other than placeholders
 
 
 // pop up window for Don't Cheat button
