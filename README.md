@@ -19,10 +19,19 @@
     4. [Structure](#structure)
     5. [Font](#font)
 5. [Feautures](#features)
-    1. [Feature1-etc]
-    2. [Form](#form)
-    3. [Social Media](#social-media)
-    4. [Future Ideas](future-ideas)
+    1. [Simplistic Design](#simplistic-design)
+    2. [Categories Covered](#categories-covered)
+    3. [Menu](#menu)
+    4. [Site Navigation](#site-navigation)
+    5. [Question Randomistion](#question-randomisation)
+    6. [Timeout](#timeout)
+    7. [Social Media](#social-media)
+    8. [Upcoming Categories and Newsletter](#upcoming-categories-and-newsletter)
+    9. [Feedback](#feedback)
+    10. [Don't Cheat Button](#dont-cheat-button)
+    11. [Timer and Score Counter](timer-and-score-counter)
+    12. [Form Validation](#form-validation)
+    13. [Future Ideas](future-ideas)
 6. [Testing](#testing)
     1. [HTML Validation](#html-validation)
     2. [CSS Validation](#css-validation)
@@ -276,7 +285,7 @@ Each webpage was passed through the [W3C CSS Validator Website](https://jigsaw.w
 <details><summary>Timeout</summary><img src = "./docs/validation/008_css4.PNG"></details>
 
 ### JavaScript
-Each webpage was passed through [JSHint JavaScript Validator](https://jshint.com/). While 46 warnings were present on the report, these relate to the use of basic JS syntax such as "let", "const", and similar. Warning advises me to use Mozilla JS extensions. Unsure if this is because the local computer on which I run Gitpod through is running Windows 8 operating software. I would not be able to write JS code without using the syntax for which I am being warned for.
+Script.js was passed through [JSHint JavaScript Validator](https://jshint.com/). While 46 warnings were present on the report, these relate to the use of basic JS syntax such as "let", "const", and similar. Warning advises me to use Mozilla JS extensions. Unsure if this is because the local computer on which I run Gitpod through is running Windows 8 operating software. This does prevent me from using VS Code Editor on my desktop. I would not be able to write JS code without using the syntax for which I am being warned for. There were no significant errors.
 
 <details><summary>script.js</summary><img src ="./docs/validation/009_jshint.PNG"></details>
 
@@ -344,7 +353,7 @@ Please find a live link to the website above the Table of Contents title on thie
 - Quiz Code where credited in files to Youtube of [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY&ab_channel=BrianDesign) and his [Github](https://github.com/briancodex/quiz-app-js)
 - Timer Code where credited in filed to Youtube of [Florin Pop](https://www.youtube.com/watch?v=x7WJEmxNlEs)
 - Alert Box Code where credited in files to Youtube of [Adam Khoury](https://www.youtube.com/watch?v=-RLE2Q7OzME&ab_channel=AdamKhoury)
-- Basic Confirmation Boxes where credited in files from Youtube of [Tony Teaches Tech](https://www.youtube.com/watch?v=bNtyTGBtbK4&ab_channel=TonyTeachesTech
+- Basic Confirmation Boxes where credited in files from Youtube of [Tony Teaches Tech](https://www.youtube.com/watch?v=bNtyTGBtbK4&ab_channel=TonyTeachesTech)
 - [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) and [Coders Coffeehouse](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2021_T1/courseware/b4e5b2c91d0a4ee3bb24fac71811b23f/fb53b5df2fbd47f183297ff8c93040c1/) where credited in the files by the [Code Institute](https://codeinstitute.net/ie/)
 - Arrow Functions by [Web Dev Simplied](https://www.youtube.com/watch?v=h33Srr5J9nY&ab_channel=WebDevSimplified)
 - Common Mediq Queries Sizes of 768px and 480px by [freeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
