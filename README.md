@@ -276,7 +276,7 @@ Each webpage was passed through the [W3C CSS Validator Website](https://jigsaw.w
 <details><summary>Timeout</summary><img src = "./docs/validation/008_css4.PNG"></details>
 
 ### JavaScript
-Each webpage was passed through [JSHint JavaScript Validator](https://jshint.com/). While 46 warnings were present on the report, these relate to the use of basic JS syntax such as "let", "const", and similar. Warning advises me to use Mozilla JS extensions. Unsure if this is because the local computer on which I run Gitpod through is running Windows 8 operating software. I would not be able to write JS code without using the syntax which I am being warned for.
+Each webpage was passed through [JSHint JavaScript Validator](https://jshint.com/). While 46 warnings were present on the report, these relate to the use of basic JS syntax such as "let", "const", and similar. Warning advises me to use Mozilla JS extensions. Unsure if this is because the local computer on which I run Gitpod through is running Windows 8 operating software. I would not be able to write JS code without using the syntax for which I am being warned for.
 
 <details><summary>script.js</summary><img src ="./docs/validation/009_jshint.PNG"></details>
 
@@ -297,15 +297,13 @@ The [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used 
 <details><summary>Timeout</summary><img src = "./docs/validation/013_wave4.PNG"></details
 
 ### Browsers
-All webpages have been tested on the following browsers:
+All webpages have been tested on the following browser:
 - Google Chrome
-- Safari
-- Internet Explorer
+
 
 ### Devices
 All webpages have been tested on the following devices:
 - Lenovo Z50 laptop
-- iPad
 - OnePlus 7 mobile phone
 
 ## Deployment
@@ -336,11 +334,23 @@ Please find a live link to the website above the Table of Contents title on thie
 - Font Awesome
 - Google Fonts
 - Snipping Tool
+- Pexels
 
 ## Credits
 
 ### Content
 
 ### Media
+
+All photos from [Pexels](https://www.pexels.com/)
+- Mountains Photo by [Sagui Andrea](https://www.pexels.com/@sagui-andrea-200115)
+- Sphinx Photo by [Arralyn](https://www.pexels.com/@arralyn-1263036)
+- Laboratory Photo by [Chokniti Khongchum](https://www.pexels.com/@chokniti-khongchum-1197604)
+- Runner Photo by [Pixabay](https://www.pexels.com/@pixabay)
+- VR Headset Photo by [Harsch Shivam](https://www.pexels.com/@harsch-shivam-721256)
+- Cinema Photo by [Nathan Engel](https://www.pexels.com/@nathan-engel-50858)
+- Concert Photo by [Wendy Wei](https://www.pexels.com/@wendywei)
+- Vote Photo by [cottonbro](https://www.pexels.com/@cottonbro)
+- Confused Man Photo by [Sammie Sander](https://www.pexels.com/@sammie-sander-165512421)
 
 ## Final Thoughts
