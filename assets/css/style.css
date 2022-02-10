@@ -101,25 +101,25 @@ footer{
     margin: 0 auto 10px;
     padding: 1.5rem;
 }
-/*needed?*/
+
 .flex-column {
     display: flex;
     flex-direction: column;
 }
-/*needed?*/
+
 .flex-center {
     justify-content: center;
     align-items: center;
 }
-/*needed?*/
+
 .justify-center {
     justify-content: center;
 }
-/*needed*/
+
 .text-center {
     text-align: center;
 }
-/*needed?*/
+
 .hidden {
     display: none;
 }

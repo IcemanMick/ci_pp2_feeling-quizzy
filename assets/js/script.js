@@ -89,22 +89,28 @@ getNewQuestion = () => {
         return window.location.assign('form.html');
     }
     
-    //questionCounter++;
+    questionCounter++;
 
+    /**
+     * gets a random question from the array of questions
+     * popuates the inner text of the question placeholder with random question being asked
+     */
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
+    
 
     choices.forEach(choice => {
-        const number = choice.dataset.number;
+        const number = choice.dataset.number;//accesses the custom dataset given in the html
         choice.innerText = currentQuestion['choice'+ number];
     });
-
+    //removes an asked question from the array each time it is answered
     availableQuestions.splice(questionsIndex, 1);
 
     acceptingAnswers = true;
 };
 
+//add event listener to pick up which answer is clicked on
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;
@@ -112,6 +118,11 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset.number;
+
+       /** 
+        * supposed to apply css to turn selected answer green if correct and red if incorrect but I could not get to work
+        * code still required for functioning quiz so not removed
+       */
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
@@ -121,14 +132,17 @@ choices.forEach(choice => {
 
         selectedChoice.parentElement.classList.add(classToApply);
 
+        /**
+         * code to give a time delay for user to see whether their answer turns green or red. not working but still required for quiz
+         */
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
-            getNewQuestion();
+            getNewQuestion();//calls the next question after answered correctly or incorrectly
 
-        }, 20);
+        }, 20);//capping total point available to score at 20
   });
 });
-
+//increases correct answer score by one and populates this score in the score area
 incrementScore = num=> {
     score+=num;
     scoreText.innerText = score;
