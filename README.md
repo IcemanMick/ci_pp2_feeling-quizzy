@@ -309,6 +309,8 @@ The [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used 
 All webpages have been tested on the following browser:
 - Google Chrome
 
+## Unfixed Bugs
+- Correct and incorrect button classes don't change the background colours when correct or incorrect answers are clicked on
 
 ### Devices
 All webpages have been tested on the following devices:
