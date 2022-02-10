@@ -149,10 +149,10 @@ The symmetry of the four current categories on the home page and the four upcomi
 ### Wireframes
 Wireframes were created using the programme Balsamiq.
 
-<details><summary>Home</summary><img src="./assets/docs/wireframes/001_wf1.png"><img src="./assets/docs/wireframes/002_wf2.png"><img src="./assets/docs/wireframes/003_wf3.png"></details>
-<details><summary>Quiz</summary><img src="./assets/docs/wireframes/004_wf4.png"><img src="./assets/docs/wireframes/005_wf5.png"><img src="./assets/docs/wireframes/006_wf6.png"></details>
-<details><summary>Form</summary><img src="./assets/docs/wireframes/007_wf7.png"><img src="./assets/docs/wireframes/008_wf8.png"><img src="./assets/docs/wireframes/009_wf9.png"></details>
-<details><summary>Timeout</summary><img src="./assets/docs/wireframes/010_wf10.png"><img src="./assets/docs/wireframes/011_wf11.png"><img src="./assets/docs/wireframes/012_wf12.png"></details>
+<details><summary>Home</summary><img src="./docs/wireframes/001_wf1.png"><img src="./docs/wireframes/002_wf2.png"><img src="./docs/wireframes/003_wf3.png"></details>
+<details><summary>Quiz</summary><img src="./docs/wireframes/004_wf4.png"><img src="./docs/wireframes/005_wf5.png"><img src="./docs/wireframes/006_wf6.png"></details>
+<details><summary>Form</summary><img src="./docs/wireframes/007_wf7.png"><img src="./docs/wireframes/008_wf8.png"><img src="./docs/wireframes/009_wf9.png"></details>
+<details><summary>Timeout</summary><img src="./docs/wireframes/010_wf10.png"><img src="./docs/wireframes/011_wf11.png"><img src="./docs/wireframes/012_wf12.png"></details>
 
 ### Font
 Roboto from [Google Fonts](https://fonts.google.com/specimen/Roboto) is used for the website. Alternative fallback font used is Sans-Serif.
