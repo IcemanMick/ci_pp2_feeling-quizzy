@@ -376,3 +376,11 @@ All photos from [Pexels](https://www.pexels.com/)
 - Dublin Jersy from [Elvery's Sport](http://blog.elverys.ie/the-2016-dublin-jersey-an-evolution-in-style/)
 
 ## Final Thoughts
+Given that this was my first project using JavaScript, it did not go as well as I'd hoped. A lot of features I wished to add did not happen as I could not get the code to work. But as they say, calm seas a good sailor never made!
+
+Positives to take away have been getting more comfortable and better with using HTML and CSS, as well as Chrome Developer Tools.
+
+I'd like to thank:
+- My mentor Mo Shami, as always, for his support and guidance.
+- My loving family and girlfriend.
+- Caffeine for getting me through the long nights and early mornings.
