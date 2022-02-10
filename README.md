@@ -236,11 +236,10 @@ User stories satisfied: Number 13, 14
 <img src="./docs/features/017_f17.PNG">
 <img src="./docs/features/018_f18.PNG">
 
-
-
-
-
 ### Future Ideas
+- Future ideas would be to incorporate new types of questions and challenges
+- To add additional questions to existing categories
+- To new categories with questions
 
 ## Testing
 
@@ -261,10 +260,20 @@ Each of the below four webpages were tested in the above categories:
 4. Timeout Page
 
 ### HTML Validation
-The HTML of each webpage was passed through the [W3c HTML Validator Website](https://validator.w3.org/).
+The HTML of each webpage was passed through the [W3c HTML Validator Website](https://validator.w3.org/). Each page returned no errors.
+
+<details><summary>Home</summary><img src = "./docs/validation/001_html1.PNG"></details>
+<details><summary>Quiz</summary><img src = "./docs/validation/002_html2.PNG"></details>
+<details><summary>Form</summary><img src = "./docs/validation/003_html3.PNG"></details>
+<details><summary>Timeout</summary><img src = "./docs/validation/004_html4.PNG"></details>
 
 ### CSS Validation
-Each webpage was passed through the [W3C CSS Validator Website](https://jigsaw.w3.org/css-validator/) also known as "Jigsaw".
+Each webpage was passed through the [W3C CSS Validator Website](https://jigsaw.w3.org/css-validator/) also known as "Jigsaw". Each page returned no errors.
+
+<details><summary>Home</summary><img src = "./docs/validation/005_css1.PNG"></details>
+<details><summary>Quiz</summary><img src = "./docs/validation/006_css2.PNG"></details>
+<details><summary>Form</summary><img src = "./docs/validation/007_css3.PNG"></details>
+<details><summary>Timeout</summary><img src = "./docs/validation/008_css4.PNG"></details>
 
 ### JavaScript
 Each webpage was passed through [JSHint JavaScript Validator](https://jshint.com/).
@@ -272,9 +281,18 @@ Each webpage was passed through [JSHint JavaScript Validator](https://jshint.com
 ### Performance
 The Lighthouse feature in Google Chrome Developer Tools was used to test the performance of each webpage.
 
-### Accessibility
+<details><summary>Home</summary><img src = "./docs/validation/014_lh1.PNG"></details>
+<details><summary>Quiz</summary><img src = "./docs/validation/015_lh2.PNG"></details>
+<details><summary>Form</summary><img src = "./docs/validation/016_lh3.PNG"></details>
+<details><summary>Timeout</summary><img src = "./docs/validation/017_lh4.PNG"></details>
 
+### Accessibility>
 The [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used to test the accessibility of the website.
+
+<details><summary>Home</summary><img src = "./docs/validation/010_wave1.PNG"></details>
+<details><summary>Quiz</summary><img src = "./docs/validation/011_wave2.PNG"></details>
+<details><summary>Form</summary><img src = "./docs/validation/012_wave3.PNG"></details>
+<details><summary>Timeout</summary><img src = "./docs/validation/013_wave4.PNG"></details
 
 ### Browsers
 All webpages have been tested on the following browsers:
