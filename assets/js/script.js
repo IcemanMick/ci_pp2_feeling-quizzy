@@ -151,6 +151,46 @@ let questions = [
         choice4: 'SpaceX',
         answer: 4,
     },
+    {
+        question: 'Who is the Republic of Ireland\'s top goalscorer?',
+        choice1: 'Niall Quinn',
+        choice2: 'Robbie Keane',
+        choice3: 'Roy Keane',
+        choice4: 'Tony Cascarino',
+        answer: 2,
+    },
+    {
+        question: 'Which female tennis player has won the most Grand Slams?',
+        choice1: 'Serena Williams',
+        choice2: 'Venus Williams',
+        choice3: 'Steffi Graf',
+        choice4: 'Martina Navratilova',
+        answer: 1,
+    },
+    {
+        question: 'How many career holes-in-one has Tiger Woods',
+        choice1: '17',
+        choice2: '18',
+        choice3: '19',
+        choice4: '20',
+        answer: 4,
+    },
+    {
+        question: 'Which NFL team has never won the Superbowl?',
+        choice1: 'New York Jets',
+        choice2: 'Detroit Lions',
+        choice3: 'Dallas Cowboys',
+        choice4: 'Minnesota Vikings',
+        answer: 4,
+    },
+    {
+        question: 'Who is the most successful UFC Heavyweight fighter?',
+        choice1: 'Jon Jones',
+        choice2: 'Francis Ngannou',
+        choice3: 'Stipe Miocic',
+        choice4: 'Randy Couture',
+        answer: 3,
+    }
 ];
 
 const SCORE_POINTS = 1;//each correct answer is equal to one point
