@@ -22,7 +22,7 @@
     <div class="heading2">
     <h2>Our monthly newsletter let's you know when new categories, features, and questions are added!!</h2>
     </div>
-    <div class=>
+    <div>
         <h2>Upcoming categories include:</h2>
         <div class="upcoming-imgs">
             <img src="assets/images/005_vr_tec.png" alt="picture of man wearing vr headset">
@@ -33,16 +33,16 @@
         <div>
             <ul class="categories">
                 <li>
-                    <i class="fas fa-robot"></i> Technology</i>
+                    <i class="fas fa-robot"></i> Technology
                 </li>
                 <li>
-                    <i class="fas fa-film"></i> Cinema</i>
+                    <i class="fas fa-film"></i> Cinema
                 </li>
                 <li>
-                    <i class="fas fa-music"></i> Music</i>
+                    <i class="fas fa-music"></i> Music
                 </li>
                 <li>
-                    <i class="fas fa-person-booth"></i> Politics</i>
+                    <i class="fas fa-person-booth"></i> Politics
                 </li>
             </ul>
             </div>
@@ -57,10 +57,10 @@
                 <input id="email" class="text-input" type="text" name="email" required>
                 <br>
                 <label for="conf-email">Confirm Email Address:</label>
-                <input id="conf-email"class="text-input" type="text" name="conf-email" required>
+                <input id="conf-email" class="text-input" type="text" name="conf-email" required>
                 <br>
                 <label for="age">Age:</label>
-                <select name="age" id="age" required>
+                <select name="age" id="age">
                     <option value="under-20">Under 20</option>
                     <option value="20s">20-29</option>
                     <option value="30s">30-39</option>
@@ -69,18 +69,16 @@
                     <option value="60+">60+</option>
                 </select>
                 <br>
-                <label for="score">My Score:</label>
-                <select name="formScore" id="form-score" required>
-                    <option value=""></option>
+                <label for="form-score">My Score:</label>
+                <select name="formscore" id="form-score">
                     <option value="0-5">0-5</option>
                     <option value="6-11">6-11</option>
                     <option value="12-17">12-17</option>
                     <option value="18-20">18-20</option>
                 </select>
                 <br>
-                <label for="faveCateg">Favourite Category</label>
-                <select name="category" id="fave-categ" required>
-                    <option value=""></option>
+                <label for="fave-categ">Favourite Category</label>
+                <select name="category" id="fave-categ">
                     <option value="geography">Geography</option>
                     <option value="history">History</option>
                     <option value="science">Science</option>
@@ -89,7 +87,7 @@
                 <br>
                 <label for="extra-feedback">Additional Feedback/Comments:</label>
                 <br>
-                <textarea name="extra-feedback" id="extra-feedback" class="textarea-input" cols="40" rows="5" value=""></textarea>
+                <textarea name="extra-feedback" id="extra-feedback" class="textarea-input" cols="40" rows="5"></textarea>
                 <br>
                 <input class="submit-btn" type="submit" value="Sign Me Up!!">
             </form>
@@ -101,15 +99,10 @@
     <div id="error-msg">
     </div>
     <!--home button-->
-    <div class="bottom-features">
-        <a href="index.html"><button class="circle-btn" id="bmh-btn" >
-            <p class="btn-font">Bring</p>
-            <br><p class="btn-font">Me</p>
-            <br><p class="btn-font">Home!!</p>
-        </button></a>
+    <div class="try-again flex-center flex-column">
+        <a href="index.html" class="btn btn-green">Bring Me Home!
+        </a>
     </div>
-
-
     <!--code for footer social networks credited to Love Running project by Code Institute-->
     <footer>
         <ul class="social-networks">

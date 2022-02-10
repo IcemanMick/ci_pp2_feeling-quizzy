@@ -458,7 +458,7 @@ textarea {
 }
 
 #acknowledgment {
-    background: whitesmoke;
+    background: limegreen;
     display: none;
     border: 4px solid black;
     border-radius: 4px;
@@ -482,7 +482,6 @@ textarea {
     text-align: center;
     font-size: 1.5rem;
 }
-
 
 /* timeout "oops" page */
 
